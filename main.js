@@ -11,7 +11,7 @@ const pages = {
         <a href="#form" class="hero-btn">طلب خدمة</a>
       </div>
       <div class="hero-image">
-        <img src="Annotation2025-12-30004907-ezgif.com-png-to-webp-converter.webp" alt="Landing Page Developer">
+        <img src="Elkous-digital1-ezgif.com-png-to-webp-converter.webp" alt="Landing Page Developer">
       </div>
     </section>
 
