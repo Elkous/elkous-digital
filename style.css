@@ -9,7 +9,7 @@ body {
 .nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 15px 20px;
   background: #0f172a;
   position: sticky;
