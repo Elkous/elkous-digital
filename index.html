@@ -12,14 +12,29 @@
 <body>
 
 <header class="nav">
-  <div onclick="go('home')" class="logo">Elkous-<span style='color:red;'>Digital</span> </div>
-  <nav>
+  
+  
+
+  <nav id="navLinks">
     <a onclick="go('home')">الرئيسية</a>
-    <a onclick="go('about')"> من نحن</a>
+    <a onclick="go('about')">من نحن</a>
     <a onclick="go('services')">خدماتنا</a>
-    <a onclick="go('contact')"> تواصل معنا</a>
+    <a onclick="go('contact')">تواصل معنا</a>
   </nav>
+ 
+
+  <!-- زر المينيو -->
+  <div class="menu-btn" id="menuBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  
+ <div onclick="go('home')" class="logo">
+    Elkous-<span style="color:red;">Digital</span>
+  </div>
 </header>
+
 
 <main id="app"></main>
 
