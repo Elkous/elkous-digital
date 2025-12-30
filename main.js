@@ -90,7 +90,7 @@ function go(page){
 
   app.innerHTML = pages[page].content;
   title.innerText = pages[page].title;
-  history.pushState({}, "", "/" + page);
+  history.pushState({}, "", "#" + page);
 
   // WhatsApp Form listener
   if(page === "home"){
