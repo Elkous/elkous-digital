@@ -1,6 +1,6 @@
 const pages = {
   home:{
-    title: "الرئيسية",
+    title: "Elkous-Digital",
     content: `
     <section class="hero-section" dir='rtl'>
       <div class="hero-content">
