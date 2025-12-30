@@ -1,5 +1,5 @@
 const pages = {
-  home: {
+  home:{
     title: "الرئيسية",
     content: `
     <section class="hero-section" dir='rtl'>
@@ -11,7 +11,7 @@ const pages = {
         <a href="#form" class="hero-btn">طلب خدمة</a>
       </div>
       <div class="hero-image">
-        <img src="Annotation2025-12-30004907-ezgif.com-png-to-webp-converter.webp" alt="Landing Page Developer">
+        <img src="linding.png" alt="Landing Page Developer">
       </div>
     </section>
 
@@ -72,17 +72,188 @@ const pages = {
   },
   about: {
     title: "من نحن",
-    content: `<section class="about-section"><h1>من نحن</h1><p>نحن فريق متخصص في الحلول الرقمية.</p></section>`
+    content: `
+    <section class="about-section" dir="rtl">
+  <div class="about-container">
+
+    <h2>من أنا</h2>
+
+    <p class="about-intro">
+      أنا مطوّر ومصمّم مواقع ويب متخصص في إنشاء Landing Pages
+      ومواقع ويب احترافية، سريعة، وموجهة لتحقيق النتائج.
+    </p>
+
+    <p>
+      أمتلك خبرة تزيد عن <strong>6 سنوات</strong> في تصميم وتطوير
+      مواقع الويب، مع تركيز خاص على تحسين الأداء، تجربة المستخدم،
+      وبناء صفحات هبوط تساعد على جذب الزبناء ورفع نسبة التحويل.
+    </p>
+
+    <p>
+      أعمل على تحليل احتياجات كل مشروع بعناية، ثم تصميم حل رقمي
+      مناسب يجمع بين البساطة، السرعة، والفعالية، سواء كان المشروع
+      Landing Page تسويقية أو موقع ويب متكامل.
+    </p>
+
+    <p>
+      هدفي هو مساعدة أصحاب المشاريع على التواجد الرقمي القوي،
+      وتحويل الزوار إلى عملاء حقيقيين من خلال تصميم ذكي
+      وبنية تقنية سليمة.
+    </p>
+
+    <div class="about-stats">
+      <div class="stat-item">
+        <strong>+6</strong>
+        <span>سنوات خبرة</span>
+      </div>
+      <div class="stat-item">
+        <strong>50+</strong>
+        <span>مشروع منجز</span>
+      </div>
+      <div class="stat-item">
+        <strong>100%</strong>
+        <span>تركيز على الأداء</span>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    `
   },
   services: {
     title: "خدماتنا",
-    content: `<section class="services-section"><h1>خدماتنا</h1><ul><li>Landing Pages</li><li>Dashboards</li><li>Static Sites</li></ul></section>`
+    content: `
+    <section class="services-section" dir="rtl">
+  <div class="services-container">
+
+    <h2>خدماتنا</h2>
+
+    <p class="services-intro">
+      أقدّم مجموعة من الخدمات الرقمية المصمّمة خصيصًا
+      لمساعدة أصحاب المشاريع على بناء حضور قوي على الويب
+      وتحقيق نتائج ملموسة.
+    </p>
+
+    <div class="services-list">
+
+      <div class="service-item">
+        <h3>تصميم وتطوير Landing Pages</h3>
+        <p>
+          إنشاء صفحات هبوط احترافية، سريعة، وموجهة للتحويل،
+          مع رسالة واضحة ودعوات إجراء مدروسة تساعد على
+          تحويل الزوار إلى عملاء.
+        </p>
+      </div>
+
+      <div class="service-item">
+        <h3>تصميم وتطوير مواقع ويب ثابتة</h3>
+        <p>
+          تطوير مواقع ويب Static خفيفة وسريعة التحميل،
+          مناسبة للشركات، المشاريع الصغيرة، والعلامات
+          التجارية التي تبحث عن البساطة والأداء.
+        </p>
+      </div>
+
+      <div class="service-item">
+        <h3>تحسين الأداء وسرعة المواقع</h3>
+        <p>
+          تحسين سرعة التحميل وتجربة المستخدم عبر
+          ضغط الملفات، تحسين الصور، وتنظيم البنية
+          التقنية للموقع.
+        </p>
+      </div>
+
+      <div class="service-item">
+        <h3>تحسين تجربة المستخدم (UX)</h3>
+        <p>
+          تحليل سلوك الزوار وتصميم واجهات سهلة
+          وبسيطة تساعد المستخدم على الوصول
+          للمعلومة واتخاذ القرار بسهولة.
+        </p>
+      </div>
+
+      <div class="service-item">
+        <h3>تهيئة المواقع لمحركات البحث (SEO أساسي)</h3>
+        <p>
+          إعداد هيكلة HTML سليمة، عناوين واضحة،
+          وتحسينات تقنية تساعد محركات البحث
+          على فهم الموقع دون التأثير على السرعة.
+        </p>
+      </div>
+
+      <div class="service-item">
+        <h3>استشارات وتحسين التحويل</h3>
+        <p>
+          تقديم استشارات تقنية وتسويقية لتحسين
+          صفحات الهبوط وزيادة نسبة التحويل
+          بناءً على تحليل الأداء.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+    `
   },
   contact: {
     title: "تواصل معنا",
-    content: `<section class="contact-section"><h1>تواصل معنا</h1><p>Email: contact@site.com</p></section>`
+    content: `
+    <section class="contact-section" dir="rtl">
+  <div class="contact-container">
+
+    <h2>تواصل معنا</h2>
+
+    <p class="contact-intro">
+      إذا كانت لديك فكرة مشروع أو تحتاج إلى Landing Page
+      أو موقع ويب احترافي، لا تتردد في التواصل معي.
+      سأكون سعيدًا بمساعدتك.
+    </p>
+
+    <div class="contact-boxes">
+
+      <div class="contact-box">
+        <h3>البريد الإلكتروني</h3>
+        <p>elkouss.digital@gmail.com</p>
+      </div>
+
+      <div class="contact-box">
+        <h3>الهاتف / WhatsApp</h3>
+        <p dir='ltr'>+212 6 20490769</p>
+      </div>
+
+      <div class="contact-box">
+        <h3>مدة الرد</h3>
+        <p>أقل من 24 ساعة</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+    `
   }
 };
+
+
+const menuBtn = document.getElementById('menuBtn');
+const navLinks = document.getElementById('navLinks');
+
+menuBtn.addEventListener('click', () => {
+  navLinks.classList.toggle('active');
+});
+
+/* تسد المينيو ملي تختار صفحة */
+document.querySelectorAll('#navLinks a').forEach(link => {
+  link.addEventListener('click', () => {
+    navLinks.classList.remove('active');
+  });
+});
+
+
 
 function go(page){
   const app = document.getElementById("app");
