@@ -665,3 +665,79 @@ button:hover, .cta-btn:hover, .hero-btn:hover, .form-btn:hover {
     font-size: 1rem;
   }
 }
+
+
+/* Landing Pages Section */
+#landing-pages {
+  max-width: 900px;
+  margin: 40px auto; /* وسط الصفحة */
+  padding: 30px 25px;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+#landing-pages h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+#landing-pages p {
+  font-size: 1.05rem;
+  margin-bottom: 20px;
+  color: #475569;
+  line-height: 1.6;
+}
+
+#landing-pages ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+#landing-pages ul li {
+  margin: 0;
+}
+
+#landing-pages ul li a {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
+  padding: 10px 15px;
+  border: 1px solid #2563eb;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+#landing-pages ul li a:hover {
+  background: #2563eb;
+  color: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  #landing-pages {
+    padding: 25px 15px;
+  }
+
+  #landing-pages h2 {
+    font-size: 1.6rem;
+  }
+
+  #landing-pages p,
+  #landing-pages ul li a {
+    font-size: 1rem;
+  }
+
+  #landing-pages ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

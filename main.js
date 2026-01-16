@@ -1,7 +1,8 @@
 const pages = {
-  home:{
-    title: "Elkous-Digital",
-    content: `
+home: {
+  title: "Elkous-Digital",
+  content: `
+    <!-- Hero Section -->
     <section class="hero-section" dir='rtl'>
       <div class="hero-content">
         <h1>تصميم وتطوير Landing Pages ومواقع ويب احترافية</h1>
@@ -15,6 +16,20 @@ const pages = {
       </div>
     </section>
 
+<!-- Landing Pages Section (وسط الصفحة) -->
+<section id="landing-pages">
+  <h2>اكتشف صفحاتنا الخاصة</h2>
+  <p>اضغط على أي رابط لتشاهد الخدمة مباشرة:</p>
+  <ul>
+    <li><a href="https://landingpage1.com" target="_blank">Landing Page 1</a></li>
+    <li><a href="https://landingpage2.com" target="_blank">Landing Page 2</a></li>
+    <li><a href="https://landingpage3.com" target="_blank">Landing Page 3</a></li>
+  </ul>
+  <p>كل صفحة تفتح في تبويب جديد لتبقى قادر على العودة للموقع الرئيسي بسهولة.</p>
+</section>
+
+
+    <!-- Problems Section -->
     <section class="problems-section">
       <h2>المشاكل الشائعة في صفحات الهبوط</h2>
       <p class="problems-intro">
@@ -29,6 +44,7 @@ const pages = {
       </div>
     </section>
 
+    <!-- Solutions Section -->
     <section class="solutions-section">
       <h2>الحلول التي أقدّمها</h2>
       <div class="solutions-list">
@@ -41,6 +57,7 @@ const pages = {
       </div>
     </section>
 
+    <!-- CTA Section -->
     <section class="cta-section">
       <div class="cta-content">
         <h2>جاهز لرفع مستوى موقعك وتحقيق نتائج حقيقية؟</h2>
@@ -49,6 +66,7 @@ const pages = {
       </div>
     </section>
 
+    <!-- Contact Form Section -->
     <section id="form" class="contact-form-section">
       <h2>تواصل معي الآن</h2>
       <p>عمر الحقول بالبيانات الصحيحة وسأتواصل معك في أقرب وقت.</p>
@@ -68,8 +86,9 @@ const pages = {
         <button id="sendBtn" class="form-btn">أرسل عبر WhatsApp</button>
       </div>
     </section>
-    `
-  },
+  `
+}
+,
   about: {
     title: "من نحن",
     content: `
