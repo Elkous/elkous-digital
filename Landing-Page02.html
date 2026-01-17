@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>برنسيس - منظم التوابل الفاخر</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700&family=Cairo:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  
+    <style>
+        
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #475569;
+      --heading-color: #0f172a;
+      --primary-color: #4A707A;
+      --button-color: #4A707A;
+      --font-family: 'Tajawal', sans-serif;
+      --font-size-base: 16px;
+      --section-padding: 80px;
+      --card-gap: 32px;
+      --border-radius: 24px;
+    }
+    body {
+      font-family: var(--font-family);
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      font-size: var(--font-size-base);
+    }
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--heading-color);
+    }
+    .custom-section {
+        padding-top: var(--section-padding);
+        padding-bottom: var(--section-padding);
+    }
+    .custom-gap {
+        gap: var(--card-gap);
+    }
+    .custom-radius {
+        border-radius: var(--border-radius);
+    }
+    .custom-radius-half {
+        border-radius: calc(var(--border-radius) / 2);
+    }
+    .custom-radius-large {
+        border-radius: calc(var(--border-radius) + 8px);
+    }
+    .btn-custom {
+        background-color: var(--button-color);
+        transition: transform 0.2s;
+    }
+    .btn-custom:hover {
+        transform: scale(1.02);
+    }
+  
+        .scroll-smooth { scroll-behavior: smooth; }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#4A707A',
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="antialiased selection:bg-primary selection:text-white">
+    
+    <!-- HEADER -->
+    <nav class="fixed top-0 w-full z-50 backdrop-blur border-b border-white/10" style="background-color: #ffffffE6; border-color: rgba(0,0,0,0.05)">
+        <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="font-bold text-lg" style="color: var(--heading-color)">برنسيس - منظم التوابل الفاخر</h1>
+            <a href="#offer" class="px-5 py-2 font-bold text-white text-sm custom-radius-half btn-custom">
+                اطلب الآن واستمتع بمطبخ منظم!
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header class="relative px-4 overflow-hidden custom-section" style="padding-top: calc(var(--section-padding) + 60px)">
+        
+        <div class="max-w-6xl mx-auto relative z-10 grid grid-cols-1 md:grid-cols-2 items-center custom-gap">
+            <div class="text-right">
+                <span class="inline-block px-3 py-1 mb-4 text-xs font-bold bg-white shadow-sm text-gray-800" style="border-radius: 99px; ">تنظيم لا مثيل له!</span>
+                <h1 class="text-3xl md:text-5xl font-black mb-6 leading-tight" >وداعاً للفوضى! اكتشف منظم التوابل الفاخر برنسيس</h1>
+                <p class="text-lg mb-8 leading-relaxed opacity-80" >حافظ على نكهاتك طازجة ومطبخك أنيقاً مع الحل الأمثل للتخزين.</p>
+                <a href="#offer" class="inline-block px-8 py-3 text-base font-bold text-white custom-radius shadow-lg btn-custom">
+                    اطلب منظم برنسيس الآن!
+                </a>
+            </div>
+            
+            <div class="relative">
+                <div class="flex flex-col md:flex-row items-center custom-gap relative overflow-hidden shadow-xl custom-radius" >
+                    <img src="a.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    
+    <!-- Standard Problem Section -->
+    <section class="px-4 custom-section">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8" >هل سئمت من فوضى البهارات؟</h2>
+            <div class="flex flex-col md:flex-row items-center custom-gap">
+                <div class="w-full md:w-1/2 relative overflow-hidden shadow-xl custom-radius">
+                    <img src="b.png" alt="">
+                </div>
+                <div class="w-full md:w-1/2 text-right">
+                    <p class="text-lg mb-6 opacity-80" >كل مطبخ يستحق أن يكون مكاناً ملهماً، لكن فوضى التوابل يمكن أن تحوله إلى كابوس. البحث عن البهار المناسب يضيع وقتك الثمين ويفسد متعة الطهي، ناهيك عن فقدان نكهة التوابل بسبب سوء التخزين.</p>
+                    <ul class="space-y-4">
+                        
+                            <li class="flex items-center gap-3">
+                                <span class="font-bold text-lg" style="color: var(--primary-color)">✕</span>
+                                <span>ضياع الوقت في البحث عن التوابل.</span>
+                            </li>
+                        
+                            <li class="flex items-center gap-3">
+                                <span class="font-bold text-lg" style="color: var(--primary-color)">✕</span>
+                                <span>توابل قديمة تفقد نكهتها.</span>
+                            </li>
+                        
+                            <li class="flex items-center gap-3">
+                                <span class="font-bold text-lg" style="color: var(--primary-color)">✕</span>
+                                <span>مطبخ غير مرتب ومظهر فوضوي.</span>
+                            </li>
+                        
+                            <li class="flex items-center gap-3">
+                                <span class="font-bold text-lg" style="color: var(--primary-color)">✕</span>
+                                <span>صعوبة الوصول إلى البهارات المستخدمة بكثرة.</span>
+                            </li>
+                        
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- DETAILED SECTIONS -->
+    <section class="px-4 custom-section">
+         <div class="max-w-6xl mx-auto">
+             
+        <div class="flex flex-col md:flex-row items-center gap-16 custom-section" style="gap: calc(var(--card-gap) * 2)">
+            <div class="w-full md:w-1/2 ">
+                <div class="relative overflow-hidden shadow-xl custom-radius">
+                    <img src="c.png" alt="">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-right">
+                <h3 class="text-2xl font-bold mb-4" style="color: var(--heading-color)" >تصميم ذكي لكل مطبخ عصري</h3>
+                <p class="text-base opacity-80 leading-relaxed" >تم تصميم منظم التوابل برنسيس ببراعة ليتناسب مع أي مساحة في مطبخك، سواء على سطح العمل أو داخل الخزانة. يوفر لك نظام التخزين المعياري مرونة لا مثيل لها، حيث يمكنك إضافة أو إزالة حاويات التوابل بسهولة. كل حاوية مصممة بشكل فريد لتقديم كمية دقيقة من البهارات بضغطة زر، مما يجعل عملية الطهي أسرع وأكثر متعة. الغطاء المحكم يضمن إغلاقاً محكماً للحفاظ على نضارة ونكهة التوابل.</p>
+            </div>
+        </div>
+       
+        <div class="flex flex-col md:flex-row-reverse items-center gap-16 custom-section" style="gap: calc(var(--card-gap) * 2)">
+            <div class="w-full md:w-1/2">
+                <div class="relative overflow-hidden shadow-xl custom-radius">
+                    <img src="d.png" alt="">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-right">
+                <h3 class="text-2xl font-bold mb-4" style="color: var(--heading-color)" >تميز لا مثيل له في الحفاظ على النكهة</h3>
+                <p class="text-base opacity-80 leading-relaxed" >ما يميز منظم برنسيس حقاً هو تركيزه على الحفاظ على جودة توابلك. على عكس الرفوف التقليدية التي تعرض البهارات للهواء والرطوبة، فإن تصميمنا المغلق والمحكم يحمي كل حبة توابل، مما يضمن بقاء النكهات غنية والروائح قوية. لن تضطر بعد الآن إلى التخلص من التوابل الباهتة أو فاقدة النكهة. استثمر في برنسيس واستمتع بتجربة طهي لا مثيل لها، حيث كل طبق ينبض بالحياة.</p>
+            </div>
+        </div>
+       
+        <div class="flex flex-col md:flex-row items-center gap-16 custom-section" style="gap: calc(var(--card-gap) * 2)">
+            <div class="w-full md:w-1/2">
+                <div class="relative overflow-hidden shadow-xl custom-radius">
+                    <img src="e.png" alt="">
+                </div>
+            </div>
+            <div class="w-full md:w-1/2 text-center md:text-right">
+                <h3 class="text-2xl font-bold mb-4" style="color: var(--heading-color)" >أكثر من مجرد منظم بهارات – رفيقك في كل وصفة</h3>
+                <p class="text-base opacity-80 leading-relaxed" >منظم برنسيس ليس فقط للتوابل الأساسية؛ إنه مصمم ليناسب احتياجاتك المتنوعة. استخدمه لتخزين أعشابك المجففة، المكسرات الصغيرة، أو حتى مكونات الخبز مثل الخميرة والفانيليا. بفضل تصميمه المدمج، يمكن وضعه بسهولة في أدراج المطبخ أو على الرفوف المفتوحة، مما يجعله مثالياً للمطابخ الصغيرة والكبيرة على حد سواء. اكتشف كيف يمكن لبرنسيس أن يبسط حياتك في المطبخ ويدعم إبداعك الطهوي.</p>
+            </div>
+        </div>
+       
+         </div>
+    </section>
+    
+    
+    <section class="px-4 custom-section" style="background-color: var(--bg-color)">
+       <div class="max-w-4xl mx-auto">
+          <div class="text-center mb-10"><h2 class="text-2xl font-bold">لماذا منظم التوابل برنسيس هو الخيار الأذكى؟</h2></div>
+          <div class="grid grid-cols-1 md:grid-cols-2 custom-gap">
+             
+                <div class="bg-gray-50 p-6 border custom-radius">
+                   <h3 class="font-bold mb-2">حاويات شفافة قابلة للإزالة</h3>
+                   <p class="text-sm text-gray-500">لسهولة التعبئة والتنظيف وتحديد المحتوى بلمحة.</p>
+                </div>
+             
+                <div class="bg-gray-50 p-6 border custom-radius">
+                   <h3 class="font-bold mb-2">تصميم مدمج وموفر للمساحة</h3>
+                   <p class="text-sm text-gray-500">مثالي للمطابخ من جميع الأحجام، يحافظ على سطح العمل نظيفاً.</p>
+                </div>
+             
+                <div class="bg-gray-50 p-6 border custom-radius">
+                   <h3 class="font-bold mb-2">أغطية محكمة الإغلاق</h3>
+                   <p class="text-sm text-gray-500">تحافظ على نضارة ونكهة التوابل لفترة أطول بكثير.</p>
+                </div>
+             
+                <div class="bg-gray-50 p-6 border custom-radius">
+                   <h3 class="font-bold mb-2">سهولة الاستخدام والتنظيم</h3>
+                   <p class="text-sm text-gray-500">وصول سريع ومنظم لجميع توابلك المفضلة دون عناء.</p>
+                </div>
+             
+                <div class="bg-gray-50 p-6 border custom-radius">
+                   <h3 class="font-bold mb-2">مواد عالية الجودة ومتينة</h3>
+                   <p class="text-sm text-gray-500">مصنوعة لتدوم طويلاً وتتحمل الاستخدام اليومي المكثف.</p>
+                </div>
+             
+          </div>
+       </div>
+    </section>
+    
+
+    
+    <section class="px-4 custom-section" style="background-color: #f8fafc">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl font-bold mb-3" style="color: var(--heading-color)" >ماذا يقول عملاؤنا السعداء؟</h2>
+                <div style="display: flex; justify-content: center; gap: 4px; color: #facc15; margin-bottom: 8px;">
+                    ★★★★★
+                </div>
+                <p class="text-sm opacity-60">4.9/5 من 1450 تقييم</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 custom-gap">
+                
+                    <div class="p-6 custom-radius" style="background-color: white; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+                        <p class="text-sm opacity-80 mb-4 leading-relaxed italic" >"كنت أعاني من فوضى رهيبة في درج التوابل، ولكن منظم برنسيس غيّر كل شيء! الآن أجد كل شيء بسهولة ومطبخي يبدو أنيقاً جداً. أنصح به بشدة!"</p>
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs" style="background-color: #e5e7eb; color: #374151">
+                                ف
+                            </div>
+                            <div>
+                                <div class="font-bold text-sm" >فاطمة أحمد</div>
+                                <div class="text-xs opacity-50">عميل موثق</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="p-6 custom-radius" style="background-color: white; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+                        <p class="text-sm opacity-80 mb-4 leading-relaxed italic" >"الجودة رائعة والتصميم عملي جداً. لاحظت فرقاً كبيراً في نضارة التوابل بعد استخدامه. يستحق كل قرش!"</p>
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs" style="background-color: #e5e7eb; color: #374151">
+                                م
+                            </div>
+                            <div>
+                                <div class="font-bold text-sm" >محمد سعيد</div>
+                                <div class="text-xs opacity-50">عميل موثق</div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="p-6 custom-radius" style="background-color: white; border: 1px solid rgba(0,0,0,0.05); box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+                        <p class="text-sm opacity-80 mb-4 leading-relaxed italic" >"أفضل استثمار قمت به لمطبخي. وفر عليّ الكثير من الوقت والتوتر. بالإضافة إلى أنه يضيف لمسة جمالية للمطبخ."</p>
+                        <div class="flex items-center gap-3">
+                            <div class="w-8 h-8 rounded-full flex items-center justify-center font-bold text-xs" style="background-color: #e5e7eb; color: #374151">
+                                ل
+                            </div>
+                            <div>
+                                <div class="font-bold text-sm" >ليلى حسن</div>
+                                <div class="text-xs opacity-50">عميل موثق</div>
+                            </div>
+                        </div>
+                    </div>
+                
+            </div>
+        </div>
+    </section>
+  
+
+    
+    <section id="offer" class="px-4 text-center custom-section">
+        <div class="max-w-4xl mx-auto p-12 relative overflow-hidden shadow-2xl custom-radius-large" style="background-color: var(--bg-color); border: 1px solid var(--text-color)10">
+            <div class="relative z-10">
+                <h2 class="text-3xl md:text-4xl font-black mb-4">حوّل مطبخك اليوم!</h2>
+                <p class="text-base mb-8 opacity-70 max-w-2xl mx-auto">عرض لفترة محدودة! استمتع بخصم خاص وشحن سريع.</p>
+                <div class="flex justify-center items-center gap-4 mb-8">
+                    <span class="text-5xl font-black" style="color: var(--primary-color)">199 ريال سعودي</span>
+                </div>
+                <button class="w-full md:w-auto px-10 py-4 text-lg font-bold shadow-lg transition-transform hover:scale-105 text-white custom-radius btn-custom">
+                    اطلب منظم برنسيس الآن!
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 text-center text-sm opacity-50 border-t border-white/10">
+        <p>© 2026 برنسيس - منظم التوابل الفاخر. جميع الحقوق محفوظة.</p>
+    </footer>
+
+</body>
+</html>
