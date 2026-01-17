@@ -698,7 +698,7 @@ button:hover, .cta-btn:hover, .hero-btn:hover, .form-btn:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 35px;
+  gap: 20px;
 }
 
 #landing-pages ul li {
@@ -738,6 +738,6 @@ button:hover, .cta-btn:hover, .hero-btn:hover, .form-btn:hover {
 
   #landing-pages ul {
     flex-direction: column;
-    gap: 10px;
+    gap: 33px;
   }
 }
