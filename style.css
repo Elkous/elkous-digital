@@ -698,7 +698,7 @@ button:hover, .cta-btn:hover, .hero-btn:hover, .form-btn:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 15px;
+  gap: 35px;
 }
 
 #landing-pages ul li {
