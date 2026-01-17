@@ -22,7 +22,7 @@ home: {
   <p>اضغط على أي رابط لتشاهد الخدمة مباشرة:</p>
   <ul>
     <li><a href="https://elkous.github.io/elkous-digital/Landing-Page01.html" target="_blank">Landing Page 1</a></li>
-    <li><a href="https://landingpage2.com" target="_blank">Landing Page 2</a></li>
+    <li><a href="https://elkous.github.io/elkous-digital/Landing-Page02.html" target="_blank">Landing Page 2</a></li>
     <li><a href="https://landingpage3.com" target="_blank">Landing Page 3</a></li>
   </ul>
   <p>كل صفحة تفتح في تبويب جديد لتبقى قادر على العودة للموقع الرئيسي بسهولة.</p>
