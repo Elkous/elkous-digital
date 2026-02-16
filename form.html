@@ -6,7 +6,8 @@
 <title>Landing Page - طلب موقع تعريفي</title>
 <style>
   body { margin:0; font-family: sans-serif; background: #f5f6fa; }
-  header { background: #0f172a; color: #fff; padding: 60px 20px; text-align:center; }
+  .header { background: #0f172a; color: #fff; padding: 60px 20px; text-align:center; }
+  header{}
   header h1 { margin:0; font-size: 2.5em; }
   header p { margin-top:10px; font-size: 1.2em; }
   main { max-width: 500px; margin: -50px auto 50px; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
@@ -19,11 +20,33 @@
 </style>
 </head>
 <body>
+<header class="nav">
+  <nav id="navLinks">
+    <a onclick="go('home')">الرئيسية</a>
+    <a onclick="go('about')">من نحن</a>
+    <a onclick="go('services')">خدماتنا</a>
+    <a onclick="go('contact')">تواصل معنا</a>
+    <a href="form.html"> 
+        أطلب موقعك الإكتروني الآن
+    </a>
+  </nav>
+      
+  <!-- زر المينيو -->
+  <div class="menu-btn" id="menuBtn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  
+ <a href="" class="logo">
+    Elkous-<span style="color:red;">Digital</span>
+  </a>
+</header>
 
-<header>
+<div class="header">
   <h1>اطلب موقعك التعريفي اليوم</h1>
   <p>سهل وسريع، احصل على السعر قبل التواصل على WhatsApp</p>
-</header>
+</div>
 
 <main>
   <h2>Form طلب موقع</h2>
