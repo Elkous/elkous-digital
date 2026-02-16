@@ -15,6 +15,7 @@
   button { background: #4CAF50; color:#fff; border:none; cursor:pointer; font-size:1em; }
   button:hover { background: #45a049; }
   h2 { text-align:center; margin-bottom:20px; }
+  .checkbox-group label { display:inline-block; margin-right:10px; }
 </style>
 </head>
 <body>
@@ -55,6 +56,14 @@
       <option value="pro">احترافي</option>
     </select>
 
+    <label>خيارات إضافية</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" id="design"> تصميم من الصفر</label>
+      <label><input type="checkbox" id="seo"> تحسين SEO</label>
+      <label><input type="checkbox" id="form"> Form فعال</label>
+      <label><input type="checkbox" id="hosting"> Hosting/Domaine</label>
+    </div>
+
     <button type="submit">احصل على السعر وأرسل WhatsApp</button>
   </form>
 </main>
@@ -82,8 +91,14 @@ document.getElementById('landingForm').addEventListener('submit', function(e){
   const pages = parseInt(document.getElementById('pages').value) || 1;
   const sections = parseInt(document.getElementById('sections').value) || 1;
 
+  const design = document.getElementById('design').checked;
+  const seo = document.getElementById('seo').checked;
+  const formExtra = document.getElementById('form').checked;
+  const hosting = document.getElementById('hosting').checked;
+
   let price = 0;
 
+  // السعر الأساسي حسب نوع الموقع والتعقيد
   if(type === 'onepage'){
     if(complexity === 'simple') price = 1200;
     else if(complexity === 'medium') price = 1800;
@@ -96,9 +111,15 @@ document.getElementById('landingForm').addEventListener('submit', function(e){
     if(pages > 5) price += (pages - 5) * 300;
   }
 
+  // زيادة السعر حسب الخيارات الإضافية
+  if(design) price += 500;
+  if(seo) price += 300;
+  if(formExtra) price += 200;
+  if(hosting) price += 400;
+
   alert('السعر المتوقع لهذا الطلب: ' + price + ' DH');
 
-  const message = `السلام عليكم، اسمي ${name}. أريد طلب موقع ${type} بتعقيد ${complexity} وعدد الصفحات: ${pages}, عدد السكاشن: ${sections}. السعر المتوقع: ${price} DH`;
+  const message = `السلام عليكم، اسمي ${name}. أريد طلب موقع ${type} بتعقيد ${complexity} وعدد الصفحات: ${pages}, عدد السكاشن: ${sections}. الخيارات الإضافية: ${design ? 'تصميم من الصفر، ' : ''}${seo ? 'SEO، ' : ''}${formExtra ? 'Form فعال، ' : ''}${hosting ? 'Hosting/Domaine' : ''}. السعر المتوقع: ${price} DH`;
   const phone = '212620490769'; // غير الرقم ديالك
   window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
 });
