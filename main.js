@@ -257,7 +257,24 @@ home: {
   },
    form: {
     title: "اطلب موقعك التعريفي اليوم",
-    content: `<div class="header">
+    content: `
+    <style>
+  body { margin:0; font-family: sans-serif; background: #f5f6fa; }
+  .header { background: #0f172a; color: #fff; padding: 60px 20px; text-align:center; }
+
+
+  header h1 { margin:0; font-size: 2.5em; }
+  header p { margin-top:10px; font-size: 1.2em; }
+  main { max-width: 500px; margin: -50px auto 50px; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+  label { display:block; margin-top:15px; }
+  input, select, button { width:100%; margin-top:5px; padding:10px; border-radius:5px; border:1px solid #ccc; }
+  button { background: #0f172a; color:#fff; border:none; cursor:pointer; font-size:1em; }
+  button:hover { background: #45a049; }
+  h2 { text-align:center; margin-bottom:20px; }
+  .checkbox-group label { display:inline-block; margin-right:10px; }
+</style>
+    
+    <div class="header">
   <h1>اطلب موقعك التعريفي اليوم</h1>
   <p>سهل وسريع، احصل على السعر قبل التواصل على WhatsApp</p>
 </div>
