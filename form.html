@@ -7,7 +7,85 @@
 <style>
   body { margin:0; font-family: sans-serif; background: #f5f6fa; }
   .header { background: #0f172a; color: #fff; padding: 60px 20px; text-align:center; }
-  header{}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: #0f172a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Desktop nav */
+.nav nav {
+  display: flex;
+  gap: 25px;
+}
+
+.nav nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav nav a:hover {
+  color: #38bdf8;
+}
+
+/* Menu button */
+.menu-btn {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menu-btn span {
+  width: 26px;
+  height: 3px;
+  background: #fff;
+  margin: 4px 0;
+  transition: 0.3s;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .menu-btn {
+    display: flex;
+  }
+
+  .nav nav {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: #0f172a;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+  }
+
+  .nav nav a {
+    padding: 15px 0;
+  }
+
+  .nav nav.active {
+    max-height: 300px;
+  }
+}
   header h1 { margin:0; font-size: 2.5em; }
   header p { margin-top:10px; font-size: 1.2em; }
   main { max-width: 500px; margin: -50px auto 50px; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
@@ -22,13 +100,8 @@
 <body>
 <header class="nav">
   <nav id="navLinks">
-    <a onclick="go('home')">الرئيسية</a>
-    <a onclick="go('about')">من نحن</a>
-    <a onclick="go('services')">خدماتنا</a>
-    <a onclick="go('contact')">تواصل معنا</a>
-    <a href="form.html"> 
-        أطلب موقعك الإكتروني الآن
-    </a>
+    <a href="">الرئيسية</a>
+   
   </nav>
       
   <!-- زر المينيو -->
