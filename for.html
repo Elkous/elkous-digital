@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Landing Page - طلب موقع تعريفي</title>
+<style>
+  body { margin:0; font-family: sans-serif; background: #f5f5f5; }
+  header { background: #4CAF50; color: #fff; padding: 60px 20px; text-align:center; }
+  header h1 { margin:0; font-size: 2.5em; }
+  header p { margin-top:10px; font-size: 1.2em; }
+  main { max-width: 500px; margin: -50px auto 50px; padding: 20px; background: #fff; border-radius: 10px; box-shadow: 0 0 15px rgba(0,0,0,0.1); }
+  label { display:block; margin-top:15px; }
+  input, select, button { width:100%; margin-top:5px; padding:10px; border-radius:5px; border:1px solid #ccc; }
+  button { background: #4CAF50; color:#fff; border:none; cursor:pointer; font-size:1em; }
+  button:hover { background: #45a049; }
+  h2 { text-align:center; margin-bottom:20px; }
+  .checkbox-group label { display:inline-block; margin-right:10px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>اطلب موقعك التعريفي اليوم</h1>
+  <p>سهل وسريع، احصل على السعر قبل التواصل على WhatsApp</p>
+</header>
+
+<main>
+  <h2>Form طلب موقع</h2>
+  <form id="landingForm">
+    <label>اسم الزبون</label>
+    <input type="text" id="name" placeholder="اكتب اسمك" required>
+
+    <label>نوع الموقع</label>
+    <select id="siteType" required>
+      <option value="">اختر...</option>
+      <option value="onepage">One Page</option>
+      <option value="multipage">Multi Page</option>
+    </select>
+
+    <div id="pagesSection" style="display:none;">
+      <label>عدد الصفحات (إلا Multi Page)</label>
+      <input type="number" id="pages" min="1" value="1">
+    </div>
+
+    <div id="sectionsSection" style="display:none;">
+      <label>عدد السكاشن (Sections) في الصفحة (إلا One Page)</label>
+      <input type="number" id="sections" min="1" value="1">
+    </div>
+
+    <label>التعقيد</label>
+    <select id="complexity" required>
+      <option value="">اختر...</option>
+      <option value="simple">بسيط</option>
+      <option value="medium">متوسط</option>
+      <option value="pro">احترافي</option>
+    </select>
+
+    <label>خيارات إضافية</label>
+    <div class="checkbox-group">
+      <label><input type="checkbox" id="design"> تصميم من الصفر</label>
+      <label><input type="checkbox" id="seo"> تحسين SEO</label>
+      <label><input type="checkbox" id="form"> Form فعال</label>
+      <label><input type="checkbox" id="hosting"> Hosting/Domaine</label>
+    </div>
+
+    <button type="submit">احصل على السعر وأرسل WhatsApp</button>
+  </form>
+</main>
+
+<script>
+document.getElementById('siteType').addEventListener('change', function(){
+  if(this.value === 'onepage'){
+    document.getElementById('sectionsSection').style.display = 'block';
+    document.getElementById('pagesSection').style.display = 'none';
+  } else if(this.value === 'multipage'){
+    document.getElementById('pagesSection').style.display = 'block';
+    document.getElementById('sectionsSection').style.display = 'none';
+  } else {
+    document.getElementById('pagesSection').style.display = 'none';
+    document.getElementById('sectionsSection').style.display = 'none';
+  }
+});
+
+document.getElementById('landingForm').addEventListener('submit', function(e){
+  e.preventDefault();
+
+  const name = document.getElementById('name').value;
+  const type = document.getElementById('siteType').value;
+  const complexity = document.getElementById('complexity').value;
+  const pages = parseInt(document.getElementById('pages').value) || 1;
+  const sections = parseInt(document.getElementById('sections').value) || 1;
+
+  const design = document.getElementById('design').checked;
+  const seo = document.getElementById('seo').checked;
+  const formExtra = document.getElementById('form').checked;
+  const hosting = document.getElementById('hosting').checked;
+
+  let price = 0;
+
+  // السعر الأساسي حسب نوع الموقع والتعقيد
+  if(type === 'onepage'){
+    if(complexity === 'simple') price = 1200;
+    else if(complexity === 'medium') price = 1800;
+    else if(complexity === 'pro') price = 2500;
+    if(sections > 6) price += (sections - 6) * 200;
+  } else if(type === 'multipage'){
+    if(complexity === 'simple') price = 2000;
+    else if(complexity === 'medium') price = 3000;
+    else if(complexity === 'pro') price = 4000;
+    if(pages > 5) price += (pages - 5) * 300;
+  }
+
+  // زيادة السعر حسب الخيارات الإضافية
+  if(design) price += 500;
+  if(seo) price += 300;
+  if(formExtra) price += 200;
+  if(hosting) price += 400;
+
+  alert('السعر المتوقع لهذا الطلب: ' + price + ' DH');
+
+  const message = `السلام عليكم، اسمي ${name}. أريد طلب موقع ${type} بتعقيد ${complexity} وعدد الصفحات: ${pages}, عدد السكاشن: ${sections}. الخيارات الإضافية: ${design ? 'تصميم من الصفر، ' : ''}${seo ? 'SEO، ' : ''}${formExtra ? 'Form فعال، ' : ''}${hosting ? 'Hosting/Domaine' : ''}. السعر المتوقع: ${price} DH`;
+  const phone = '212620490769'; // غير الرقم ديالك
+  window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
+});
+</script>
+
+</body>
+      </html>
