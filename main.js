@@ -385,12 +385,9 @@ function go(page){
       if(target) target.scrollIntoView({behavior:'smooth'});
     });
   });
-}
-
-window.onload = () => {
-  const page = location.hash.replace("#","") || "home";
-  go(page);
 };
+
+
 document.getElementById('siteType').addEventListener('change', function(){
   if(this.value === 'onepage'){
     document.getElementById('sectionsSection').style.display = 'block';
@@ -445,5 +442,8 @@ document.getElementById('landingForm').addEventListener('submit', function(e){
   const phone = '212620490769'; // غير الرقم ديالك
   window.open(`https://wa.me/${phone}?text=${encodeURIComponent(message)}`, '_blank');
 });
-
+window.onload = () => {
+  const page = location.hash.replace("#","") || "home";
+  go(page);
+};
 
