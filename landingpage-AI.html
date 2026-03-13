@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Landing Page Generator</title>
+
+<style>
+
+body{
+font-family: Arial;
+background:#f5f5f5;
+display:flex;
+align-items:center;
+justify-content:center;
+height:100vh;
+margin:0;
+}
+
+.container{
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,0.1);
+text-align:center;
+width:400px;
+}
+
+h1{
+margin-bottom:20px;
+}
+
+input{
+margin:15px 0;
+}
+
+button{
+background:#007bff;
+color:white;
+border:none;
+padding:12px 25px;
+border-radius:6px;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+background:#0056b3;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>إنشاء Landing Page</h1>
+
+<input type="file" id="image">
+
+<br>
+
+<button onclick="generate()">Generate Page</button>
+
+<p id="status"></p>
+
+</div>
+
+<script>
+
+function generate(){
+
+let file = document.getElementById("image").files[0];
+
+let formData = new FormData();
+
+formData.append("data", file);
+
+document.getElementById("status").innerText = "جاري إنشاء الصفحة...";
+
+fetch("https://elkousm676.app.n8n.cloud/webhook-test/generate-landing",{
+
+method:"POST",
+body:formData
+
+})
+.then(res => res.text())
+.then(html => {
+
+let newWindow = window.open();
+newWindow.document.write(html);
+
+})
+.catch(err => {
+
+document.getElementById("status").innerText="وقع خطأ";
+
+});
+
+}
+
+</script>
+
+</body>
+</html>
