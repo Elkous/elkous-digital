@@ -1,0 +1,2409 @@
+{
+  "sections": [
+    {
+      "id": "PBS-v7va221775075059235",
+      "name": "row",
+      "blocks": {
+        "parameters": {
+          "rows-gap": "0"
+        },
+        "style": {
+          "section-alignment": "center",
+          "is-full-width": true,
+          "width": "1400",
+          "border-radius-top-left": 0,
+          "border-radius-top-right": 0,
+          "border-radius-bottom-right": 0,
+          "border-radius-bottom-left": 0,
+          "margin-top": 0,
+          "margin-right": 0,
+          "margin-bottom": 0,
+          "margin-left": 0,
+          "padding-top": 0,
+          "padding-right": 0,
+          "padding-bottom": 0,
+          "padding-left": 0,
+          "background-color": "#00000000",
+          "background-image": "https://cdn.youcan.shop/stores/aca9ff00238be95c6672558e01045649/others/hK2ll1jgMiJ7CjOpxrWr0Dbab6KrsbgzjpuZzw6k.png",
+          "background-repeat": "no-repeat",
+          "background-position": "center",
+          "background-size": "cover",
+          "css-content": "{ }"
+        }
+      },
+      "label": "Container",
+      "children": [
+        {
+          "id": "PBS-1qe6fk1775075241150",
+          "name": "column",
+          "blocks": {
+            "parameters": {
+              "columns": "3",
+              "grid-on-mobile": false,
+              "columns-gap": 0,
+              "rows-gap": 0,
+              "columns-distribution": [
+                33,
+                66
+              ]
+            },
+            "style": {
+              "section-alignment": "center",
+              "vertical-alignment": "center",
+              "is-full-width": true,
+              "width": null,
+              "height": null,
+              "border-radius-top-left": 0,
+              "border-radius-top-right": 0,
+              "border-radius-bottom-right": 0,
+              "border-radius-bottom-left": 0,
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "padding-top": 0,
+              "padding-right": 0,
+              "padding-bottom": 0,
+              "padding-left": 0,
+              "background-color": "transparent",
+              "background-image": null,
+              "background-repeat": "no-repeat",
+              "background-position": "center",
+              "background-size": "cover",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Columns",
+          "children": [
+            {
+              "id": "PBS-9no5qp1775075171847",
+              "name": "row",
+              "blocks": {
+                "parameters": {
+                  "rows-gap": 0
+                },
+                "style": {
+                  "section-alignment": "center",
+                  "is-full-width": true,
+                  "width": null,
+                  "border-radius-top-left": 0,
+                  "border-radius-top-right": 0,
+                  "border-radius-bottom-right": 0,
+                  "border-radius-bottom-left": 0,
+                  "margin-top": 0,
+                  "margin-right": 0,
+                  "margin-bottom": 0,
+                  "margin-left": 0,
+                  "padding-top": 0,
+                  "padding-right": 0,
+                  "padding-bottom": 0,
+                  "padding-left": 0,
+                  "background-color": "transparent",
+                  "background-image": null,
+                  "background-repeat": "no-repeat",
+                  "background-position": "center",
+                  "background-size": "cover",
+                  "css-content": "{ }"
+                }
+              },
+              "label": "div left",
+              "children": [
+                {
+                  "id": "PBS-xgrqgq1775075382977",
+                  "name": "link-button",
+                  "blocks": {
+                    "parameters": {
+                      "content": "<p><strong><span style=\"font-size: 24px; color: rgb(255, 255, 255);\">Portfo</span></strong><span style=\"color: rgb(226, 80, 65);\"><strong><span style=\"font-size: 24px;\">lio</span></strong></span></p>",
+                      "icon-choice": "none",
+                      "icon-class": "fas fa-shopping-cart",
+                      "icon-image": null,
+                      "type": "external-link",
+                      "target-section": null,
+                      "target-external-section": "https://twarigshop.youcan.store/pages/portfolio",
+                      "sticky-mobile": false,
+                      "sticky-desktop": false
+                    },
+                    "style": {
+                      "button-alignment": "center",
+                      "is-full-width": false,
+                      "width": "100",
+                      "height": null,
+                      "margin-top": "8",
+                      "margin-right": 0,
+                      "margin-bottom": "8",
+                      "margin-left": 0,
+                      "padding-top": "12",
+                      "padding-right": "12",
+                      "padding-bottom": "12",
+                      "padding-left": "12",
+                      "background-color": "#00000000",
+                      "hover-background-color": "#00000000",
+                      "active-background-color": "#00000000",
+                      "container-desktop-background-color": "transparent",
+                      "container-mobile-background-color": "transparent",
+                      "font-size": 20,
+                      "line-height": 150,
+                      "letter-spacing": 0,
+                      "text-vertical-alignment": "center",
+                      "text-horizontal-alignment": "center",
+                      "text-color": "#FFFFFF",
+                      "hover-text-color": "#FFFFFF",
+                      "active-text-color": "#FFFFFF",
+                      "text-shadow": "0px 0px 0px black",
+                      "icon-alignment": "row",
+                      "icon-size": 24,
+                      "icon-color": "#FFFFFF",
+                      "icon-hover-color": "#FFFFFF",
+                      "space-in-between": 20,
+                      "space-in-between-mobile": 20,
+                      "icon-shadow": "0px 0px 0px #000000",
+                      "border-radius-top-left": 0,
+                      "border-radius-top-right": 0,
+                      "border-radius-bottom-right": 0,
+                      "border-radius-bottom-left": 0,
+                      "hover-border-radius-top-left": 0,
+                      "hover-border-radius-top-right": 0,
+                      "hover-border-radius-bottom-right": 0,
+                      "hover-border-radius-bottom-left": 0,
+                      "active-border-radius-top-left": 0,
+                      "active-border-radius-top-right": 0,
+                      "active-border-radius-bottom-right": 0,
+                      "active-border-radius-bottom-left": 0,
+                      "border-width": 0,
+                      "hover-border-width": 0,
+                      "active-border-width": 0,
+                      "border-color": "#25292E",
+                      "hover-border-color": "#101214",
+                      "active-border-color": "#101214",
+                      "border-style": "solid",
+                      "animation-name": null,
+                      "animation-direction": "from-left-ltr",
+                      "animation-duration": 500,
+                      "animation-length-from": -14,
+                      "animation-length-to": 14,
+                      "animation-timing": "linear",
+                      "button-shadow": "0px 0px 0px 0px black",
+                      "hover-button-shadow": "0px 0px 0px 0px black",
+                      "active-button-shadow": "0px 0px 0px 0px black",
+                      "css-content": "{ }"
+                    }
+                  },
+                  "label": "Portfolio",
+                  "children": null
+                }
+              ]
+            },
+            {
+              "id": "PBS-eecmz861775075191909",
+              "name": "row",
+              "blocks": {
+                "parameters": {
+                  "rows-gap": "0"
+                },
+                "style": {
+                  "section-alignment": "center",
+                  "is-full-width": true,
+                  "width": null,
+                  "border-radius-top-left": 0,
+                  "border-radius-top-right": 0,
+                  "border-radius-bottom-right": 0,
+                  "border-radius-bottom-left": 0,
+                  "margin-top": 0,
+                  "margin-right": 0,
+                  "margin-bottom": 0,
+                  "margin-left": 0,
+                  "padding-top": 0,
+                  "padding-right": 0,
+                  "padding-bottom": 0,
+                  "padding-left": 0,
+                  "background-color": "transparent",
+                  "background-image": null,
+                  "background-repeat": "no-repeat",
+                  "background-position": "center",
+                  "background-size": "cover",
+                  "css-content": "{ }"
+                }
+              },
+              "label": "div center",
+              "children": [
+                {
+                  "id": "PBS-2fotq1775076950452",
+                  "name": "column",
+                  "blocks": {
+                    "parameters": {
+                      "columns": "5",
+                      "grid-on-mobile": false,
+                      "columns-gap": "21",
+                      "rows-gap": "8",
+                      "columns-distribution": [
+                        20,
+                        40,
+                        60,
+                        80
+                      ]
+                    },
+                    "style": {
+                      "section-alignment": "center",
+                      "vertical-alignment": "center",
+                      "is-full-width": true,
+                      "width": null,
+                      "height": null,
+                      "border-radius-top-left": 0,
+                      "border-radius-top-right": 0,
+                      "border-radius-bottom-right": 0,
+                      "border-radius-bottom-left": 0,
+                      "margin-top": 0,
+                      "margin-right": 0,
+                      "margin-bottom": 0,
+                      "margin-left": 0,
+                      "padding-top": 0,
+                      "padding-right": 0,
+                      "padding-bottom": 0,
+                      "padding-left": 0,
+                      "background-color": "transparent",
+                      "background-image": null,
+                      "background-repeat": "no-repeat",
+                      "background-position": "center",
+                      "background-size": "cover",
+                      "css-content": "{ }"
+                    }
+                  },
+                  "label": "Col NAV",
+                  "children": [
+                    {
+                      "id": "PBS-jbrz9r1775076824590",
+                      "name": "link-button",
+                      "blocks": {
+                        "parameters": {
+                          "content": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 18px;\">Home</span></strong></p>",
+                          "icon-choice": "none",
+                          "icon-class": "fas fa-shopping-cart",
+                          "icon-image": null,
+                          "type": "scroll-to-section",
+                          "target-section": "PBS-1qe6fk1775075241150",
+                          "target-external-section": null,
+                          "sticky-mobile": false,
+                          "sticky-desktop": false
+                        },
+                        "style": {
+                          "button-alignment": "center",
+                          "is-full-width": false,
+                          "width": "90",
+                          "height": null,
+                          "margin-top": "8",
+                          "margin-right": 0,
+                          "margin-bottom": "8",
+                          "margin-left": 0,
+                          "padding-top": "12",
+                          "padding-right": "12",
+                          "padding-bottom": "12",
+                          "padding-left": "12",
+                          "background-color": "#00000000",
+                          "hover-background-color": "#00000000",
+                          "active-background-color": "#00000000",
+                          "container-desktop-background-color": "transparent",
+                          "container-mobile-background-color": "transparent",
+                          "font-size": 20,
+                          "line-height": 150,
+                          "letter-spacing": 0,
+                          "text-vertical-alignment": "center",
+                          "text-horizontal-alignment": "center",
+                          "text-color": "#FFFFFF",
+                          "hover-text-color": "#FFFFFF",
+                          "active-text-color": "#FFFFFF",
+                          "text-shadow": "0px 0px 0px black",
+                          "icon-alignment": "row",
+                          "icon-size": 24,
+                          "icon-color": "#FFFFFF",
+                          "icon-hover-color": "#FFFFFF",
+                          "space-in-between": 20,
+                          "space-in-between-mobile": 20,
+                          "icon-shadow": "0px 0px 0px #000000",
+                          "border-radius-top-left": 0,
+                          "border-radius-top-right": 0,
+                          "border-radius-bottom-right": 0,
+                          "border-radius-bottom-left": 0,
+                          "hover-border-radius-top-left": 0,
+                          "hover-border-radius-top-right": 0,
+                          "hover-border-radius-bottom-right": 0,
+                          "hover-border-radius-bottom-left": 0,
+                          "active-border-radius-top-left": 0,
+                          "active-border-radius-top-right": 0,
+                          "active-border-radius-bottom-right": 0,
+                          "active-border-radius-bottom-left": 0,
+                          "border-width": 0,
+                          "hover-border-width": 0,
+                          "active-border-width": 0,
+                          "border-color": "#25292E",
+                          "hover-border-color": "#101214",
+                          "active-border-color": "#101214",
+                          "border-style": "solid",
+                          "animation-name": null,
+                          "animation-direction": "from-left-ltr",
+                          "animation-duration": 500,
+                          "animation-length-from": -14,
+                          "animation-length-to": 14,
+                          "animation-timing": "linear",
+                          "button-shadow": "0px 0px 0px 0px black",
+                          "hover-button-shadow": "0px 0px 0px 0px black",
+                          "active-button-shadow": "0px 0px 0px 0px black",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "home",
+                      "children": null
+                    },
+                    {
+                      "id": "PBS-mhhua1775076918259",
+                      "name": "link-button",
+                      "blocks": {
+                        "parameters": {
+                          "content": "<p><strong>About</strong><strong> </strong></p>",
+                          "icon-choice": "none",
+                          "icon-class": "fas fa-shopping-cart",
+                          "icon-image": null,
+                          "type": "scroll-to-section",
+                          "target-section": "PBS-yxtz181775080523225",
+                          "target-external-section": null,
+                          "sticky-mobile": false,
+                          "sticky-desktop": false
+                        },
+                        "style": {
+                          "button-alignment": "center",
+                          "is-full-width": false,
+                          "width": "150",
+                          "height": null,
+                          "margin-top": "8",
+                          "margin-right": 0,
+                          "margin-bottom": "8",
+                          "margin-left": 0,
+                          "padding-top": "12",
+                          "padding-right": "12",
+                          "padding-bottom": "12",
+                          "padding-left": "12",
+                          "background-color": "#00000000",
+                          "hover-background-color": "#00000000",
+                          "active-background-color": "#00000000",
+                          "container-desktop-background-color": "transparent",
+                          "container-mobile-background-color": "transparent",
+                          "font-size": 20,
+                          "line-height": 150,
+                          "letter-spacing": 0,
+                          "text-vertical-alignment": "center",
+                          "text-horizontal-alignment": "center",
+                          "text-color": "#FFFFFF",
+                          "hover-text-color": "#FFFFFF",
+                          "active-text-color": "#FFFFFF",
+                          "text-shadow": "0px 0px 0px black",
+                          "icon-alignment": "row",
+                          "icon-size": 24,
+                          "icon-color": "#FFFFFF",
+                          "icon-hover-color": "#FFFFFF",
+                          "space-in-between": 20,
+                          "space-in-between-mobile": 20,
+                          "icon-shadow": "0px 0px 0px #000000",
+                          "border-radius-top-left": 0,
+                          "border-radius-top-right": 0,
+                          "border-radius-bottom-right": 0,
+                          "border-radius-bottom-left": 0,
+                          "hover-border-radius-top-left": 0,
+                          "hover-border-radius-top-right": 0,
+                          "hover-border-radius-bottom-right": 0,
+                          "hover-border-radius-bottom-left": 0,
+                          "active-border-radius-top-left": 0,
+                          "active-border-radius-top-right": 0,
+                          "active-border-radius-bottom-right": 0,
+                          "active-border-radius-bottom-left": 0,
+                          "border-width": 0,
+                          "hover-border-width": 0,
+                          "active-border-width": 0,
+                          "border-color": "#25292E",
+                          "hover-border-color": "#101214",
+                          "active-border-color": "#101214",
+                          "border-style": "solid",
+                          "animation-name": null,
+                          "animation-direction": "from-left-ltr",
+                          "animation-duration": 500,
+                          "animation-length-from": -14,
+                          "animation-length-to": 14,
+                          "animation-timing": "linear",
+                          "button-shadow": "0px 0px 0px 0px black",
+                          "hover-button-shadow": "0px 0px 0px 0px black",
+                          "active-button-shadow": "0px 0px 0px 0px black",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "about us",
+                      "children": null
+                    },
+                    {
+                      "id": "PBS-ux34u1775076918030",
+                      "name": "link-button",
+                      "blocks": {
+                        "parameters": {
+                          "content": "<p><strong>Serveses</strong></p>",
+                          "icon-choice": "none",
+                          "icon-class": "fas fa-shopping-cart",
+                          "icon-image": null,
+                          "type": "scroll-to-section",
+                          "target-section": "PBS-aw71n1775082318567",
+                          "target-external-section": null,
+                          "sticky-mobile": false,
+                          "sticky-desktop": false
+                        },
+                        "style": {
+                          "button-alignment": "center",
+                          "is-full-width": false,
+                          "width": "150",
+                          "height": null,
+                          "margin-top": "8",
+                          "margin-right": 0,
+                          "margin-bottom": "8",
+                          "margin-left": 0,
+                          "padding-top": "12",
+                          "padding-right": "12",
+                          "padding-bottom": "12",
+                          "padding-left": "12",
+                          "background-color": "#00000000",
+                          "hover-background-color": "#00000000",
+                          "active-background-color": "#00000000",
+                          "container-desktop-background-color": "transparent",
+                          "container-mobile-background-color": "transparent",
+                          "font-size": 20,
+                          "line-height": 150,
+                          "letter-spacing": 0,
+                          "text-vertical-alignment": "center",
+                          "text-horizontal-alignment": "center",
+                          "text-color": "#FFFFFF",
+                          "hover-text-color": "#FFFFFF",
+                          "active-text-color": "#FFFFFF",
+                          "text-shadow": "0px 0px 0px black",
+                          "icon-alignment": "row",
+                          "icon-size": 24,
+                          "icon-color": "#FFFFFF",
+                          "icon-hover-color": "#FFFFFF",
+                          "space-in-between": 20,
+                          "space-in-between-mobile": 20,
+                          "icon-shadow": "0px 0px 0px #000000",
+                          "border-radius-top-left": 0,
+                          "border-radius-top-right": 0,
+                          "border-radius-bottom-right": 0,
+                          "border-radius-bottom-left": 0,
+                          "hover-border-radius-top-left": 0,
+                          "hover-border-radius-top-right": 0,
+                          "hover-border-radius-bottom-right": 0,
+                          "hover-border-radius-bottom-left": 0,
+                          "active-border-radius-top-left": 0,
+                          "active-border-radius-top-right": 0,
+                          "active-border-radius-bottom-right": 0,
+                          "active-border-radius-bottom-left": 0,
+                          "border-width": 0,
+                          "hover-border-width": 0,
+                          "active-border-width": 0,
+                          "border-color": "#25292E",
+                          "hover-border-color": "#101214",
+                          "active-border-color": "#101214",
+                          "border-style": "solid",
+                          "animation-name": null,
+                          "animation-direction": "from-left-ltr",
+                          "animation-duration": 500,
+                          "animation-length-from": -14,
+                          "animation-length-to": 14,
+                          "animation-timing": "linear",
+                          "button-shadow": "0px 0px 0px 0px black",
+                          "hover-button-shadow": "0px 0px 0px 0px black",
+                          "active-button-shadow": "0px 0px 0px 0px black",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "serveses",
+                      "children": null
+                    },
+                    {
+                      "id": "PBS-m4z1zn1775077117352",
+                      "name": "link-button",
+                      "blocks": {
+                        "parameters": {
+                          "content": "<p><strong>Skills</strong></p>",
+                          "icon-choice": "none",
+                          "icon-class": "fas fa-shopping-cart",
+                          "icon-image": null,
+                          "type": "scroll-to-section",
+                          "target-section": "PBS-szolja1775086039929",
+                          "target-external-section": null,
+                          "sticky-mobile": false,
+                          "sticky-desktop": false
+                        },
+                        "style": {
+                          "button-alignment": "center",
+                          "is-full-width": false,
+                          "width": "100",
+                          "height": null,
+                          "margin-top": "8",
+                          "margin-right": 0,
+                          "margin-bottom": "8",
+                          "margin-left": 0,
+                          "padding-top": "12",
+                          "padding-right": "12",
+                          "padding-bottom": "12",
+                          "padding-left": "12",
+                          "background-color": "#00000000",
+                          "hover-background-color": "#00000000",
+                          "active-background-color": "#00000000",
+                          "container-desktop-background-color": "transparent",
+                          "container-mobile-background-color": "transparent",
+                          "font-size": 20,
+                          "line-height": 150,
+                          "letter-spacing": 0,
+                          "text-vertical-alignment": "center",
+                          "text-horizontal-alignment": "center",
+                          "text-color": "#FFFFFF",
+                          "hover-text-color": "#FFFFFF",
+                          "active-text-color": "#FFFFFF",
+                          "text-shadow": "0px 0px 0px black",
+                          "icon-alignment": "row",
+                          "icon-size": 24,
+                          "icon-color": "#FFFFFF",
+                          "icon-hover-color": "#FFFFFF",
+                          "space-in-between": 20,
+                          "space-in-between-mobile": 20,
+                          "icon-shadow": "0px 0px 0px #000000",
+                          "border-radius-top-left": 0,
+                          "border-radius-top-right": 0,
+                          "border-radius-bottom-right": 0,
+                          "border-radius-bottom-left": 0,
+                          "hover-border-radius-top-left": 0,
+                          "hover-border-radius-top-right": 0,
+                          "hover-border-radius-bottom-right": 0,
+                          "hover-border-radius-bottom-left": 0,
+                          "active-border-radius-top-left": 0,
+                          "active-border-radius-top-right": 0,
+                          "active-border-radius-bottom-right": 0,
+                          "active-border-radius-bottom-left": 0,
+                          "border-width": 0,
+                          "hover-border-width": 0,
+                          "active-border-width": 0,
+                          "border-color": "#25292E",
+                          "hover-border-color": "#101214",
+                          "active-border-color": "#101214",
+                          "border-style": "solid",
+                          "animation-name": null,
+                          "animation-direction": "from-left-ltr",
+                          "animation-duration": 500,
+                          "animation-length-from": -14,
+                          "animation-length-to": 14,
+                          "animation-timing": "linear",
+                          "button-shadow": "0px 0px 0px 0px black",
+                          "hover-button-shadow": "0px 0px 0px 0px black",
+                          "active-button-shadow": "0px 0px 0px 0px black",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "skills",
+                      "children": null
+                    },
+                    {
+                      "id": "PBS-z6rtnq1775077138287",
+                      "name": "link-button",
+                      "blocks": {
+                        "parameters": {
+                          "content": "<p><strong>Contact </strong></p>",
+                          "icon-choice": "none",
+                          "icon-class": "fas fa-shopping-cart",
+                          "icon-image": null,
+                          "type": "scroll-to-section",
+                          "target-section": "PBS-9709u1775087040516",
+                          "target-external-section": null,
+                          "sticky-mobile": false,
+                          "sticky-desktop": false
+                        },
+                        "style": {
+                          "button-alignment": "center",
+                          "is-full-width": false,
+                          "width": "130",
+                          "height": null,
+                          "margin-top": "8",
+                          "margin-right": 0,
+                          "margin-bottom": "8",
+                          "margin-left": 0,
+                          "padding-top": "12",
+                          "padding-right": "0",
+                          "padding-bottom": "12",
+                          "padding-left": "0",
+                          "background-color": "#00000000",
+                          "hover-background-color": "#00000000",
+                          "active-background-color": "#00000000",
+                          "container-desktop-background-color": "transparent",
+                          "container-mobile-background-color": "transparent",
+                          "font-size": 20,
+                          "line-height": 150,
+                          "letter-spacing": 0,
+                          "text-vertical-alignment": "center",
+                          "text-horizontal-alignment": "center",
+                          "text-color": "#FFFFFF",
+                          "hover-text-color": "#FFFFFF",
+                          "active-text-color": "#FFFFFF",
+                          "text-shadow": "0px 0px 0px black",
+                          "icon-alignment": "row",
+                          "icon-size": 24,
+                          "icon-color": "#FFFFFF",
+                          "icon-hover-color": "#FFFFFF",
+                          "space-in-between": 20,
+                          "space-in-between-mobile": 20,
+                          "icon-shadow": "0px 0px 0px #000000",
+                          "border-radius-top-left": 0,
+                          "border-radius-top-right": 0,
+                          "border-radius-bottom-right": 0,
+                          "border-radius-bottom-left": 0,
+                          "hover-border-radius-top-left": 0,
+                          "hover-border-radius-top-right": 0,
+                          "hover-border-radius-bottom-right": 0,
+                          "hover-border-radius-bottom-left": 0,
+                          "active-border-radius-top-left": 0,
+                          "active-border-radius-top-right": 0,
+                          "active-border-radius-bottom-right": 0,
+                          "active-border-radius-bottom-left": 0,
+                          "border-width": 0,
+                          "hover-border-width": 0,
+                          "active-border-width": 0,
+                          "border-color": "#25292E",
+                          "hover-border-color": "#101214",
+                          "active-border-color": "#101214",
+                          "border-style": "solid",
+                          "animation-name": null,
+                          "animation-direction": "from-left-ltr",
+                          "animation-duration": 500,
+                          "animation-length-from": -14,
+                          "animation-length-to": 14,
+                          "animation-timing": "linear",
+                          "button-shadow": "0px 0px 0px 0px black",
+                          "hover-button-shadow": "0px 0px 0px 0px black",
+                          "active-button-shadow": "0px 0px 0px 0px black",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "contact us",
+                      "children": null
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "PBS-5kgzb1775075171431",
+              "name": "row",
+              "blocks": {
+                "parameters": {
+                  "rows-gap": 0
+                },
+                "style": {
+                  "section-alignment": "center",
+                  "is-full-width": true,
+                  "width": null,
+                  "border-radius-top-left": 0,
+                  "border-radius-top-right": 0,
+                  "border-radius-bottom-right": 0,
+                  "border-radius-bottom-left": 0,
+                  "margin-top": 0,
+                  "margin-right": 0,
+                  "margin-bottom": 0,
+                  "margin-left": 0,
+                  "padding-top": 0,
+                  "padding-right": 0,
+                  "padding-bottom": 0,
+                  "padding-left": 0,
+                  "background-color": "transparent",
+                  "background-image": null,
+                  "background-repeat": "no-repeat",
+                  "background-position": "center",
+                  "background-size": "cover",
+                  "css-content": "{ }"
+                }
+              },
+              "label": "div right",
+              "children": [
+                {
+                  "id": "PBS-z0gppr1775076826079",
+                  "name": "link-button",
+                  "blocks": {
+                    "parameters": {
+                      "content": "<p>Subscribe</p>",
+                      "icon-choice": "none",
+                      "icon-class": "fas fa-shopping-cart",
+                      "icon-image": null,
+                      "type": "external-link",
+                      "target-section": null,
+                      "target-external-section": null,
+                      "sticky-mobile": false,
+                      "sticky-desktop": false
+                    },
+                    "style": {
+                      "button-alignment": "center",
+                      "is-full-width": false,
+                      "width": "150",
+                      "height": null,
+                      "margin-top": "8",
+                      "margin-right": "0",
+                      "margin-bottom": "8",
+                      "margin-left": "0",
+                      "padding-top": "8",
+                      "padding-right": "12",
+                      "padding-bottom": "8",
+                      "padding-left": "12",
+                      "background-color": "#F97878FF",
+                      "hover-background-color": "#00000000",
+                      "active-background-color": "#00000000",
+                      "container-desktop-background-color": "transparent",
+                      "container-mobile-background-color": "transparent",
+                      "font-size": 20,
+                      "line-height": 150,
+                      "letter-spacing": 0,
+                      "text-vertical-alignment": "center",
+                      "text-horizontal-alignment": "center",
+                      "text-color": "#FFFFFF",
+                      "hover-text-color": "#FFFFFF",
+                      "active-text-color": "#FFFFFF",
+                      "text-shadow": "0px 0px 0px black",
+                      "icon-alignment": "row",
+                      "icon-size": 24,
+                      "icon-color": "#FFFFFF",
+                      "icon-hover-color": "#FFFFFF",
+                      "space-in-between": 20,
+                      "space-in-between-mobile": 20,
+                      "icon-shadow": "0px 0px 0px #000000",
+                      "border-radius-top-left": "15",
+                      "border-radius-top-right": "15",
+                      "border-radius-bottom-right": "15",
+                      "border-radius-bottom-left": "15",
+                      "hover-border-radius-top-left": "15",
+                      "hover-border-radius-top-right": "15",
+                      "hover-border-radius-bottom-right": "15",
+                      "hover-border-radius-bottom-left": "15",
+                      "active-border-radius-top-left": 0,
+                      "active-border-radius-top-right": 0,
+                      "active-border-radius-bottom-right": 0,
+                      "active-border-radius-bottom-left": 0,
+                      "border-width": "2",
+                      "hover-border-width": "2",
+                      "active-border-width": 0,
+                      "border-color": "#FF5C5CFF",
+                      "hover-border-color": "#EB6464FF",
+                      "active-border-color": "#101214",
+                      "border-style": "solid",
+                      "animation-name": null,
+                      "animation-direction": "from-left-ltr",
+                      "animation-duration": 500,
+                      "animation-length-from": -14,
+                      "animation-length-to": 14,
+                      "animation-timing": "linear",
+                      "button-shadow": "0px 0px 0px 0px black",
+                      "hover-button-shadow": "0px 0px 0px 0px black",
+                      "active-button-shadow": "0px 0px 0px 0px black",
+                      "css-content": "{ }"
+                    }
+                  },
+                  "label": "Subscribe",
+                  "children": null
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "PBS-wu71k71775078705846",
+          "name": "row",
+          "blocks": {
+            "parameters": {
+              "rows-gap": 0
+            },
+            "style": {
+              "section-alignment": "center",
+              "is-full-width": false,
+              "width": "1200",
+              "border-radius-top-left": 0,
+              "border-radius-top-right": 0,
+              "border-radius-bottom-right": 0,
+              "border-radius-bottom-left": 0,
+              "margin-top": "90",
+              "margin-right": 0,
+              "margin-bottom": "90",
+              "margin-left": 0,
+              "padding-top": 0,
+              "padding-right": 0,
+              "padding-bottom": 0,
+              "padding-left": 0,
+              "background-color": "transparent",
+              "background-image": null,
+              "background-repeat": "no-repeat",
+              "background-position": "center",
+              "background-size": "cover",
+              "css-content": "{ }"
+            }
+          },
+          "label": "HERO",
+          "children": [
+            {
+              "id": "PBS-8h4841775078797223",
+              "name": "column",
+              "blocks": {
+                "parameters": {
+                  "columns": 2,
+                  "grid-on-mobile": false,
+                  "columns-gap": 0,
+                  "rows-gap": 0,
+                  "columns-distribution": [
+                    50
+                  ]
+                },
+                "style": {
+                  "section-alignment": "center",
+                  "vertical-alignment": "center",
+                  "is-full-width": true,
+                  "width": null,
+                  "height": null,
+                  "border-radius-top-left": 0,
+                  "border-radius-top-right": 0,
+                  "border-radius-bottom-right": 0,
+                  "border-radius-bottom-left": 0,
+                  "margin-top": 0,
+                  "margin-right": 0,
+                  "margin-bottom": 0,
+                  "margin-left": 0,
+                  "padding-top": 0,
+                  "padding-right": 0,
+                  "padding-bottom": 0,
+                  "padding-left": 0,
+                  "background-color": "transparent",
+                  "background-image": null,
+                  "background-repeat": "no-repeat",
+                  "background-position": "center",
+                  "background-size": "cover",
+                  "css-content": "{ }"
+                }
+              },
+              "label": "Columns",
+              "children": [
+                {
+                  "id": "PBS-hlw051775078966028",
+                  "name": "row",
+                  "blocks": {
+                    "parameters": {
+                      "rows-gap": 0
+                    },
+                    "style": {
+                      "section-alignment": "left",
+                      "is-full-width": true,
+                      "width": null,
+                      "border-radius-top-left": 0,
+                      "border-radius-top-right": 0,
+                      "border-radius-bottom-right": 0,
+                      "border-radius-bottom-left": 0,
+                      "margin-top": 0,
+                      "margin-right": 0,
+                      "margin-bottom": 0,
+                      "margin-left": "80",
+                      "padding-top": 0,
+                      "padding-right": 0,
+                      "padding-bottom": 0,
+                      "padding-left": 0,
+                      "background-color": "transparent",
+                      "background-image": null,
+                      "background-repeat": "no-repeat",
+                      "background-position": "center",
+                      "background-size": "cover",
+                      "css-content": "{ }"
+                    }
+                  },
+                  "label": "CON HERO",
+                  "children": [
+                    {
+                      "id": "PBS-31lqp41775079040482",
+                      "name": "html-editor",
+                      "blocks": {
+                        "parameters": {
+                          "htmlText": "<p style=\"text-align: left;\"><span style=\"color: rgb(255, 255, 255);\">Hello, my name is</span></p>"
+                        },
+                        "style": {
+                          "section-alignment": "center",
+                          "is-full-width": true,
+                          "width": null,
+                          "margin-top": 0,
+                          "margin-right": 0,
+                          "margin-bottom": 0,
+                          "margin-left": 0,
+                          "padding-top": 0,
+                          "padding-right": 0,
+                          "padding-bottom": 0,
+                          "padding-left": 0,
+                          "background-color": "transparent",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "Html Editor",
+                      "children": null
+                    },
+                    {
+                      "id": "PBS-820uu1775079459871",
+                      "name": "html-editor",
+                      "blocks": {
+                        "parameters": {
+                          "htmlText": "<p style=\"text-align: left;\"><span style=\"font-size: 36px; color: rgb(255, 255, 255);\">El kous&nbsp;</span><span style=\"font-size: 36px; color: rgb(226, 80, 65);\">Amine</span></p>"
+                        },
+                        "style": {
+                          "section-alignment": "center",
+                          "is-full-width": true,
+                          "width": null,
+                          "margin-top": 0,
+                          "margin-right": 0,
+                          "margin-bottom": 0,
+                          "margin-left": 0,
+                          "padding-top": 0,
+                          "padding-right": 0,
+                          "padding-bottom": 0,
+                          "padding-left": 0,
+                          "background-color": "transparent",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "Html Editor",
+                      "children": null
+                    },
+                    {
+                      "id": "PBS-hjlxa1775078833240",
+                      "name": "html-editor",
+                      "blocks": {
+                        "parameters": {
+                          "htmlText": "<p style=\"text-align: left;\"><span style=\"color: rgb(255, 255, 255);\">I&#39;am a Web &nbsp;Developer</span></p>"
+                        },
+                        "style": {
+                          "section-alignment": "center",
+                          "is-full-width": true,
+                          "width": null,
+                          "margin-top": 0,
+                          "margin-right": 0,
+                          "margin-bottom": 0,
+                          "margin-left": 0,
+                          "padding-top": 0,
+                          "padding-right": 0,
+                          "padding-bottom": 0,
+                          "padding-left": 0,
+                          "background-color": "transparent",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "Html Editor",
+                      "children": null
+                    },
+                    {
+                      "id": "PBS-w6sevw1775079094611",
+                      "name": "link-button",
+                      "blocks": {
+                        "parameters": {
+                          "content": "<p style=\"text-align: left;\">lets start</p>",
+                          "icon-choice": "none",
+                          "icon-class": "fas fa-shopping-cart",
+                          "icon-image": null,
+                          "type": "external-link",
+                          "target-section": null,
+                          "target-external-section": null,
+                          "sticky-mobile": false,
+                          "sticky-desktop": false
+                        },
+                        "style": {
+                          "button-alignment": "left",
+                          "is-full-width": false,
+                          "width": "140",
+                          "height": null,
+                          "margin-top": 20,
+                          "margin-right": 0,
+                          "margin-bottom": 20,
+                          "margin-left": 0,
+                          "padding-top": "8",
+                          "padding-right": "12",
+                          "padding-bottom": "8",
+                          "padding-left": "12",
+                          "background-color": "#F86565FF",
+                          "hover-background-color": "#00000000",
+                          "active-background-color": "#00000000",
+                          "container-desktop-background-color": "transparent",
+                          "container-mobile-background-color": "transparent",
+                          "font-size": 20,
+                          "line-height": 150,
+                          "letter-spacing": 0,
+                          "text-vertical-alignment": "center",
+                          "text-horizontal-alignment": "center",
+                          "text-color": "#FFFFFF",
+                          "hover-text-color": "#FFFFFF",
+                          "active-text-color": "#FFFFFF",
+                          "text-shadow": "0px 0px 0px black",
+                          "icon-alignment": "row",
+                          "icon-size": 24,
+                          "icon-color": "#FFFFFF",
+                          "icon-hover-color": "#FFFFFF",
+                          "space-in-between": 20,
+                          "space-in-between-mobile": 20,
+                          "icon-shadow": "0px 0px 0px #000000",
+                          "border-radius-top-left": "12",
+                          "border-radius-top-right": "12",
+                          "border-radius-bottom-right": "12",
+                          "border-radius-bottom-left": "12",
+                          "hover-border-radius-top-left": "12",
+                          "hover-border-radius-top-right": "12",
+                          "hover-border-radius-bottom-right": "12",
+                          "hover-border-radius-bottom-left": "12",
+                          "active-border-radius-top-left": 0,
+                          "active-border-radius-top-right": 0,
+                          "active-border-radius-bottom-right": 0,
+                          "active-border-radius-bottom-left": 0,
+                          "border-width": "2",
+                          "hover-border-width": "2",
+                          "active-border-width": 0,
+                          "border-color": "#D0021BFF",
+                          "hover-border-color": "#D0021BFF",
+                          "active-border-color": "#D0021BFF",
+                          "border-style": "solid",
+                          "animation-name": null,
+                          "animation-direction": "from-left-ltr",
+                          "animation-duration": 500,
+                          "animation-length-from": -14,
+                          "animation-length-to": 14,
+                          "animation-timing": "linear",
+                          "button-shadow": "0px 0px 0px 0px black",
+                          "hover-button-shadow": "0px 0px 0px 0px black",
+                          "active-button-shadow": "0px 0px 0px 0px black",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "lis start",
+                      "children": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PBS-uur9nf1775079995314",
+      "name": "column",
+      "blocks": {
+        "parameters": {
+          "columns": 2,
+          "grid-on-mobile": false,
+          "columns-gap": "27",
+          "rows-gap": "21",
+          "columns-distribution": [
+            50
+          ]
+        },
+        "style": {
+          "section-alignment": "center",
+          "vertical-alignment": "center",
+          "is-full-width": false,
+          "width": "1200",
+          "height": null,
+          "border-radius-top-left": 0,
+          "border-radius-top-right": 0,
+          "border-radius-bottom-right": 0,
+          "border-radius-bottom-left": 0,
+          "margin-top": 0,
+          "margin-right": 0,
+          "margin-bottom": 0,
+          "margin-left": 0,
+          "padding-top": "60",
+          "padding-right": "60",
+          "padding-bottom": "60",
+          "padding-left": "60",
+          "background-color": "#282828FF",
+          "background-image": null,
+          "background-repeat": "no-repeat",
+          "background-position": "center",
+          "background-size": "cover",
+          "css-content": "{ }"
+        }
+      },
+      "label": "Columns",
+      "children": [
+        {
+          "id": "PBS-yxtz181775080523225",
+          "name": "row",
+          "blocks": {
+            "parameters": {
+              "rows-gap": 0
+            },
+            "style": {
+              "section-alignment": "center",
+              "is-full-width": true,
+              "width": null,
+              "border-radius-top-left": 0,
+              "border-radius-top-right": 0,
+              "border-radius-bottom-right": 0,
+              "border-radius-bottom-left": 0,
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "padding-top": 0,
+              "padding-right": 0,
+              "padding-bottom": 0,
+              "padding-left": 0,
+              "background-color": "transparent",
+              "background-image": null,
+              "background-repeat": "no-repeat",
+              "background-position": "center",
+              "background-size": "cover",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Cont 1",
+          "children": [
+            {
+              "id": "PBS-zpe0q1775080082584",
+              "name": "image",
+              "blocks": {
+                "parameters": {
+                  "image": "https://cdn.youcan.shop/stores/aca9ff00238be95c6672558e01045649/others/iQb1sjLwev1cFszwxKup730ZRufSCKRTW2AzrwLG.png",
+                  "type": "none",
+                  "target-external-section": "#"
+                },
+                "style": {
+                  "image-alignment": "center",
+                  "is-full-width": false,
+                  "width": null,
+                  "height": null,
+                  "border-t-l-radius": 0,
+                  "border-t-r-radius": 0,
+                  "border-b-r-radius": 0,
+                  "border-b-l-radius": 0,
+                  "margin-top": 0,
+                  "margin-right": 0,
+                  "margin-bottom": 0,
+                  "margin-left": 0,
+                  "background-color": "transparent",
+                  "css-content": "{ }"
+                }
+              },
+              "label": "Image abo",
+              "children": null
+            }
+          ]
+        },
+        {
+          "id": "PBS-mzyc51775080527749",
+          "name": "row",
+          "blocks": {
+            "parameters": {
+              "rows-gap": 0
+            },
+            "style": {
+              "section-alignment": "center",
+              "is-full-width": true,
+              "width": null,
+              "border-radius-top-left": 0,
+              "border-radius-top-right": 0,
+              "border-radius-bottom-right": 0,
+              "border-radius-bottom-left": 0,
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "padding-top": 0,
+              "padding-right": 0,
+              "padding-bottom": 0,
+              "padding-left": 0,
+              "background-color": "transparent",
+              "background-image": null,
+              "background-repeat": "no-repeat",
+              "background-position": "center",
+              "background-size": "cover",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Cont 2",
+          "children": [
+            {
+              "id": "PBS-xxazj1775080012643",
+              "name": "title",
+              "blocks": {
+                "parameters": {
+                  "text": "About Me",
+                  "subtitle": null,
+                  "style": "style-1",
+                  "url": null
+                },
+                "style": {
+                  "text-alignment": "left",
+                  "font-size": 2,
+                  "text-color": "#FFFFFFFF",
+                  "accent-color": "#ff6e55",
+                  "font-family": null,
+                  "font-weight": "bold",
+                  "text-decoration": "none",
+                  "line-height": 150,
+                  "letter-spacing": 0,
+                  "subtitle-text-alignment": "center",
+                  "space-between-title": 0,
+                  "subtitle-font-size": 1,
+                  "subtitle-text-color": "#26292E",
+                  "subtitle-font-family": null,
+                  "subtitle-font-weight": "normal",
+                  "subtitle-text-decoration": "none",
+                  "subtitle-line-height": 150,
+                  "subtitle-letter-spacing": 0,
+                  "title-alignment": "center",
+                  "margin-top": null,
+                  "margin-right": 0,
+                  "margin-bottom": "30",
+                  "margin-left": 0,
+                  "padding-top": 0,
+                  "padding-right": 0,
+                  "padding-bottom": 0,
+                  "padding-left": 0,
+                  "background-color": "transparent",
+                  "css-content": "{ }"
+                }
+              },
+              "label": "Title",
+              "children": null
+            },
+            {
+              "id": "PBS-ssspzf1775080019041",
+              "name": "html-editor",
+              "blocks": {
+                "parameters": {
+                  "htmlText": "<p style=\"text-align: left;\"><span style=\"color: rgb(255, 255, 255);\"><strong>Developer&nbsp;</strong></span><strong>&nbsp;</strong><span style=\"color: rgb(226, 80, 65);\"><strong>&amp; Designer</strong></span></p>"
+                },
+                "style": {
+                  "section-alignment": "center",
+                  "is-full-width": true,
+                  "width": null,
+                  "margin-top": 0,
+                  "margin-right": 0,
+                  "margin-bottom": 0,
+                  "margin-left": 0,
+                  "padding-top": 0,
+                  "padding-right": 0,
+                  "padding-bottom": 0,
+                  "padding-left": 0,
+                  "background-color": "transparent",
+                  "css-content": "{ }"
+                }
+              },
+              "label": "Html ABOUT",
+              "children": null
+            },
+            {
+              "id": "PBS-wmxj6f1775080027098",
+              "name": "html-editor",
+              "blocks": {
+                "parameters": {
+                  "htmlText": "<p style=\"text-align: left;\"><span style=\"color: rgb(255, 255, 255);\">My name is Amine El Kouss, and I am a web developer passionate about building modern, fast, and effective websites. I specialize in creating landing pages, business websites, and sales pages that help businesses present their services, attract customers, and grow their online presence.</span></p>"
+                },
+                "style": {
+                  "section-alignment": "center",
+                  "is-full-width": true,
+                  "width": null,
+                  "margin-top": "20",
+                  "margin-right": 0,
+                  "margin-bottom": "20",
+                  "margin-left": 0,
+                  "padding-top": 0,
+                  "padding-right": 0,
+                  "padding-bottom": 0,
+                  "padding-left": 0,
+                  "background-color": "transparent",
+                  "css-content": "{ }"
+                }
+              },
+              "label": "Html ABOT",
+              "children": null
+            },
+            {
+              "id": "PBS-bqq431775080037546",
+              "name": "link-button",
+              "blocks": {
+                "parameters": {
+                  "content": "<p style=\"text-align: left;\">lets start</p>",
+                  "icon-choice": "none",
+                  "icon-class": "fas fa-shopping-cart",
+                  "icon-image": null,
+                  "type": "external-link",
+                  "target-section": null,
+                  "target-external-section": null,
+                  "sticky-mobile": false,
+                  "sticky-desktop": false
+                },
+                "style": {
+                  "button-alignment": "left",
+                  "is-full-width": false,
+                  "width": "140",
+                  "height": null,
+                  "margin-top": 20,
+                  "margin-right": 0,
+                  "margin-bottom": 20,
+                  "margin-left": 0,
+                  "padding-top": "8",
+                  "padding-right": "12",
+                  "padding-bottom": "8",
+                  "padding-left": "12",
+                  "background-color": "#F86565FF",
+                  "hover-background-color": "#00000000",
+                  "active-background-color": "#00000000",
+                  "container-desktop-background-color": "transparent",
+                  "container-mobile-background-color": "transparent",
+                  "font-size": 20,
+                  "line-height": 150,
+                  "letter-spacing": 0,
+                  "text-vertical-alignment": "center",
+                  "text-horizontal-alignment": "center",
+                  "text-color": "#FFFFFF",
+                  "hover-text-color": "#FFFFFF",
+                  "active-text-color": "#FFFFFF",
+                  "text-shadow": "0px 0px 0px black",
+                  "icon-alignment": "row",
+                  "icon-size": 24,
+                  "icon-color": "#FFFFFF",
+                  "icon-hover-color": "#FFFFFF",
+                  "space-in-between": 20,
+                  "space-in-between-mobile": 20,
+                  "icon-shadow": "0px 0px 0px #000000",
+                  "border-radius-top-left": "12",
+                  "border-radius-top-right": "12",
+                  "border-radius-bottom-right": "12",
+                  "border-radius-bottom-left": "12",
+                  "hover-border-radius-top-left": "12",
+                  "hover-border-radius-top-right": "12",
+                  "hover-border-radius-bottom-right": "12",
+                  "hover-border-radius-bottom-left": "12",
+                  "active-border-radius-top-left": 0,
+                  "active-border-radius-top-right": 0,
+                  "active-border-radius-bottom-right": 0,
+                  "active-border-radius-bottom-left": 0,
+                  "border-width": "2",
+                  "hover-border-width": "2",
+                  "active-border-width": 0,
+                  "border-color": "#D0021BFF",
+                  "hover-border-color": "#D0021BFF",
+                  "active-border-color": "#101214",
+                  "border-style": "solid",
+                  "animation-name": null,
+                  "animation-direction": "from-left-ltr",
+                  "animation-duration": 500,
+                  "animation-length-from": -14,
+                  "animation-length-to": 14,
+                  "animation-timing": "linear",
+                  "button-shadow": "0px 0px 0px 0px black",
+                  "hover-button-shadow": "0px 0px 0px 0px black",
+                  "active-button-shadow": "0px 0px 0px 0px black",
+                  "css-content": "{ }"
+                }
+              },
+              "label": "lis Talk",
+              "children": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PBS-aw71n1775082318567",
+      "name": "row",
+      "blocks": {
+        "parameters": {
+          "rows-gap": 0
+        },
+        "style": {
+          "section-alignment": "center",
+          "is-full-width": true,
+          "width": null,
+          "border-radius-top-left": 0,
+          "border-radius-top-right": 0,
+          "border-radius-bottom-right": 0,
+          "border-radius-bottom-left": 0,
+          "margin-top": "60",
+          "margin-right": 0,
+          "margin-bottom": "60",
+          "margin-left": 0,
+          "padding-top": "30",
+          "padding-right": "30",
+          "padding-bottom": "30",
+          "padding-left": "30",
+          "background-color": "#000000FF",
+          "background-image": null,
+          "background-repeat": "no-repeat",
+          "background-position": "center",
+          "background-size": "cover",
+          "css-content": "{ }"
+        }
+      },
+      "label": "Container",
+      "children": [
+        {
+          "id": "PBS-6zdiyn1775082385902",
+          "name": "title",
+          "blocks": {
+            "parameters": {
+              "text": "Our Sevices",
+              "subtitle": null,
+              "style": "style-1",
+              "url": null
+            },
+            "style": {
+              "text-alignment": "center",
+              "font-size": 2,
+              "text-color": "#FFFFFFFF",
+              "accent-color": "#ff6e55",
+              "font-family": null,
+              "font-weight": "bold",
+              "text-decoration": "none",
+              "line-height": 150,
+              "letter-spacing": 0,
+              "subtitle-text-alignment": "center",
+              "space-between-title": 0,
+              "subtitle-font-size": 1,
+              "subtitle-text-color": "#26292E",
+              "subtitle-font-family": null,
+              "subtitle-font-weight": "normal",
+              "subtitle-text-decoration": "none",
+              "subtitle-line-height": 150,
+              "subtitle-letter-spacing": 0,
+              "title-alignment": "center",
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": "20",
+              "margin-left": 0,
+              "padding-top": 0,
+              "padding-right": 0,
+              "padding-bottom": 0,
+              "padding-left": 0,
+              "background-color": "transparent",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Title",
+          "children": null
+        },
+        {
+          "id": "PBS-r3mk5m1775082508081",
+          "name": "row",
+          "blocks": {
+            "parameters": {
+              "rows-gap": 0
+            },
+            "style": {
+              "section-alignment": "center",
+              "is-full-width": false,
+              "width": "1200",
+              "border-radius-top-left": 0,
+              "border-radius-top-right": 0,
+              "border-radius-bottom-right": 0,
+              "border-radius-bottom-left": 0,
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "padding-top": 0,
+              "padding-right": 0,
+              "padding-bottom": 0,
+              "padding-left": 0,
+              "background-color": "transparent",
+              "background-image": null,
+              "background-repeat": "no-repeat",
+              "background-position": "center",
+              "background-size": "cover",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Container",
+          "children": [
+            {
+              "id": "PBS-qgsymr1775082525013",
+              "name": "column",
+              "blocks": {
+                "parameters": {
+                  "columns": "3",
+                  "grid-on-mobile": false,
+                  "columns-gap": "21",
+                  "rows-gap": "22",
+                  "columns-distribution": [
+                    33,
+                    66
+                  ]
+                },
+                "style": {
+                  "section-alignment": "center",
+                  "vertical-alignment": "center",
+                  "is-full-width": true,
+                  "width": null,
+                  "height": null,
+                  "border-radius-top-left": 0,
+                  "border-radius-top-right": 0,
+                  "border-radius-bottom-right": 0,
+                  "border-radius-bottom-left": 0,
+                  "margin-top": 0,
+                  "margin-right": 0,
+                  "margin-bottom": 0,
+                  "margin-left": 0,
+                  "padding-top": 0,
+                  "padding-right": 0,
+                  "padding-bottom": 0,
+                  "padding-left": 0,
+                  "background-color": "transparent",
+                  "background-image": null,
+                  "background-repeat": "no-repeat",
+                  "background-position": "center",
+                  "background-size": "cover",
+                  "css-content": "{ }"
+                }
+              },
+              "label": "Columns",
+              "children": [
+                {
+                  "id": "PBS-8nph1n1775083563199",
+                  "name": "row",
+                  "blocks": {
+                    "parameters": {
+                      "rows-gap": 0
+                    },
+                    "style": {
+                      "section-alignment": "center",
+                      "is-full-width": true,
+                      "width": null,
+                      "border-radius-top-left": "9",
+                      "border-radius-top-right": "9",
+                      "border-radius-bottom-right": "9",
+                      "border-radius-bottom-left": "9",
+                      "margin-top": "15",
+                      "margin-right": "15",
+                      "margin-bottom": "15",
+                      "margin-left": "15",
+                      "padding-top": 0,
+                      "padding-right": 0,
+                      "padding-bottom": 0,
+                      "padding-left": 0,
+                      "background-color": "#282828FF",
+                      "background-image": null,
+                      "background-repeat": "no-repeat",
+                      "background-position": "center",
+                      "background-size": "cover",
+                      "css-content": "{ }"
+                    }
+                  },
+                  "label": "Container",
+                  "children": [
+                    {
+                      "id": "PBS-ugyw9o1775083066406",
+                      "name": "html-editor",
+                      "blocks": {
+                        "parameters": {
+                          "htmlText": "<p><svg width=\"45\" height=\"45\" style=\"color:#F86565FF;\" fill=\"currentColor\" class=\"bi bi-list\" viewBox=\"0 0 16 16\">&nbsp;<path fill-rule=\"evenodd\" d=\"M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5\"></path>&nbsp;</svg></p>"
+                        },
+                        "style": {
+                          "section-alignment": "center",
+                          "is-full-width": true,
+                          "width": null,
+                          "margin-top": 0,
+                          "margin-right": 0,
+                          "margin-bottom": 0,
+                          "margin-left": 0,
+                          "padding-top": 0,
+                          "padding-right": 0,
+                          "padding-bottom": 0,
+                          "padding-left": 0,
+                          "background-color": "transparent",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "Html Editor",
+                      "children": null
+                    },
+                    {
+                      "id": "PBS-y60wvt1775084800047",
+                      "name": "html-editor",
+                      "blocks": {
+                        "parameters": {
+                          "htmlText": "<p><strong><span style=\"color: rgb(255, 255, 255);\">Web Development</span></strong></p>"
+                        },
+                        "style": {
+                          "section-alignment": "center",
+                          "is-full-width": true,
+                          "width": null,
+                          "margin-top": 0,
+                          "margin-right": 0,
+                          "margin-bottom": 0,
+                          "margin-left": 0,
+                          "padding-top": 0,
+                          "padding-right": 0,
+                          "padding-bottom": 0,
+                          "padding-left": 0,
+                          "background-color": "transparent",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "Html Editor",
+                      "children": null
+                    },
+                    {
+                      "id": "PBS-x7xzhq1775083713809",
+                      "name": "html-editor",
+                      "blocks": {
+                        "parameters": {
+                          "htmlText": "<p><span style=\"color: rgb(255, 255, 255);\">We create modern, fast, and responsive websites tailored to your business needs. From landing pages to full business websites, we build clean and professional websites that help you present your services and attract more clients online.</span></p>"
+                        },
+                        "style": {
+                          "section-alignment": "center",
+                          "is-full-width": true,
+                          "width": null,
+                          "margin-top": 0,
+                          "margin-right": 0,
+                          "margin-bottom": 0,
+                          "margin-left": 0,
+                          "padding-top": 0,
+                          "padding-right": 0,
+                          "padding-bottom": 0,
+                          "padding-left": 0,
+                          "background-color": "transparent",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "Html Editor",
+                      "children": null
+                    }
+                  ]
+                },
+                {
+                  "id": "PBS-pgquzn1775085180264",
+                  "name": "row",
+                  "blocks": {
+                    "parameters": {
+                      "rows-gap": 0
+                    },
+                    "style": {
+                      "section-alignment": "center",
+                      "is-full-width": true,
+                      "width": null,
+                      "border-radius-top-left": "9",
+                      "border-radius-top-right": "9",
+                      "border-radius-bottom-right": "9",
+                      "border-radius-bottom-left": "9",
+                      "margin-top": "15",
+                      "margin-right": "15",
+                      "margin-bottom": "15",
+                      "margin-left": "15",
+                      "padding-top": 0,
+                      "padding-right": 0,
+                      "padding-bottom": 0,
+                      "padding-left": 0,
+                      "background-color": "#282828FF",
+                      "background-image": null,
+                      "background-repeat": "no-repeat",
+                      "background-position": "center",
+                      "background-size": "cover",
+                      "css-content": "{ }"
+                    }
+                  },
+                  "label": "Container",
+                  "children": [
+                    {
+                      "id": "PBS-pvxx1775085180264",
+                      "name": "html-editor",
+                      "blocks": {
+                        "parameters": {
+                          "htmlText": "<p><svg width=\"45\" height=\"45\" style=\"color:#F86565FF;\" fill=\"currentColor\" class=\"bi bi-person\" viewBox=\"0 0 16 16\">&nbsp;<path d=\"M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z\"></path>&nbsp;</svg></p>"
+                        },
+                        "style": {
+                          "section-alignment": "center",
+                          "is-full-width": true,
+                          "width": null,
+                          "margin-top": 0,
+                          "margin-right": 0,
+                          "margin-bottom": 0,
+                          "margin-left": 0,
+                          "padding-top": 0,
+                          "padding-right": 0,
+                          "padding-bottom": 0,
+                          "padding-left": 0,
+                          "background-color": "transparent",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "Html Editor",
+                      "children": null
+                    },
+                    {
+                      "id": "PBS-yo9ocm1775085180264",
+                      "name": "html-editor",
+                      "blocks": {
+                        "parameters": {
+                          "htmlText": "<p><strong><span style=\"color: rgb(255, 255, 255);\">Landing Page Design</span></strong></p>"
+                        },
+                        "style": {
+                          "section-alignment": "center",
+                          "is-full-width": true,
+                          "width": null,
+                          "margin-top": 0,
+                          "margin-right": 0,
+                          "margin-bottom": 0,
+                          "margin-left": 0,
+                          "padding-top": 0,
+                          "padding-right": 0,
+                          "padding-bottom": 0,
+                          "padding-left": 0,
+                          "background-color": "transparent",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "Html Editor",
+                      "children": null
+                    },
+                    {
+                      "id": "PBS-43f4pf1775085180264",
+                      "name": "html-editor",
+                      "blocks": {
+                        "parameters": {
+                          "htmlText": "<p><span style=\"color: rgb(255, 255, 255);\">We design high-converting landing pages focused on marketing and sales. Our landing pages are built to capture leads, promote products, and improve advertising performance for Facebook Ads, Google Ads, and other marketing campaigns.</span></p>"
+                        },
+                        "style": {
+                          "section-alignment": "center",
+                          "is-full-width": true,
+                          "width": null,
+                          "margin-top": 0,
+                          "margin-right": 0,
+                          "margin-bottom": 0,
+                          "margin-left": 0,
+                          "padding-top": 0,
+                          "padding-right": 0,
+                          "padding-bottom": 0,
+                          "padding-left": 0,
+                          "background-color": "transparent",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "Html Editor",
+                      "children": null
+                    }
+                  ]
+                },
+                {
+                  "id": "PBS-3jbioj1775085187472",
+                  "name": "row",
+                  "blocks": {
+                    "parameters": {
+                      "rows-gap": 0
+                    },
+                    "style": {
+                      "section-alignment": "center",
+                      "is-full-width": true,
+                      "width": null,
+                      "border-radius-top-left": "9",
+                      "border-radius-top-right": "9",
+                      "border-radius-bottom-right": "9",
+                      "border-radius-bottom-left": "9",
+                      "margin-top": "15",
+                      "margin-right": "15",
+                      "margin-bottom": "15",
+                      "margin-left": "15",
+                      "padding-top": 0,
+                      "padding-right": 0,
+                      "padding-bottom": 0,
+                      "padding-left": 0,
+                      "background-color": "#282828FF",
+                      "background-image": null,
+                      "background-repeat": "no-repeat",
+                      "background-position": "center",
+                      "background-size": "cover",
+                      "css-content": "{ }"
+                    }
+                  },
+                  "label": "Container",
+                  "children": [
+                    {
+                      "id": "PBS-zx8mcd1775085187472",
+                      "name": "html-editor",
+                      "blocks": {
+                        "parameters": {
+                          "htmlText": "<p><svg width=\"45\" height=\"45\" style=\"color:#F86565FF;\" fill=\"currentColor\" class=\"bi bi-bell\" viewBox=\"0 0 16 16\">&nbsp;<path d=\"M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6\"></path>&nbsp;</svg></p>"
+                        },
+                        "style": {
+                          "section-alignment": "center",
+                          "is-full-width": true,
+                          "width": null,
+                          "margin-top": 0,
+                          "margin-right": 0,
+                          "margin-bottom": 0,
+                          "margin-left": 0,
+                          "padding-top": 0,
+                          "padding-right": 0,
+                          "padding-bottom": 0,
+                          "padding-left": 0,
+                          "background-color": "transparent",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "Html Editor",
+                      "children": null
+                    },
+                    {
+                      "id": "PBS-gj64ke1775085187472",
+                      "name": "html-editor",
+                      "blocks": {
+                        "parameters": {
+                          "htmlText": "<p><strong><span style=\"color: rgb(255, 255, 255);\">Automation &amp; Workflows</span></strong></p>"
+                        },
+                        "style": {
+                          "section-alignment": "center",
+                          "is-full-width": true,
+                          "width": null,
+                          "margin-top": 0,
+                          "margin-right": 0,
+                          "margin-bottom": 0,
+                          "margin-left": 0,
+                          "padding-top": 0,
+                          "padding-right": 0,
+                          "padding-bottom": 0,
+                          "padding-left": 0,
+                          "background-color": "transparent",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "Html Editor",
+                      "children": null
+                    },
+                    {
+                      "id": "PBS-ixspk1775085187472",
+                      "name": "html-editor",
+                      "blocks": {
+                        "parameters": {
+                          "htmlText": "<p><span style=\"color: rgb(255, 255, 255);\">We build automated workflows that connect your website with forms, email marketing tools, Google Sheets, CRM systems, and other platforms. This helps you save time, organize your leads, and automate repetitive tasks.</span></p>"
+                        },
+                        "style": {
+                          "section-alignment": "center",
+                          "is-full-width": true,
+                          "width": null,
+                          "margin-top": 0,
+                          "margin-right": 0,
+                          "margin-bottom": 0,
+                          "margin-left": 0,
+                          "padding-top": 0,
+                          "padding-right": 0,
+                          "padding-bottom": 0,
+                          "padding-left": 0,
+                          "background-color": "transparent",
+                          "css-content": "{ }"
+                        }
+                      },
+                      "label": "Html Editor",
+                      "children": null
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PBS-szolja1775086039929",
+      "name": "row",
+      "blocks": {
+        "parameters": {
+          "rows-gap": 0
+        },
+        "style": {
+          "section-alignment": "center",
+          "is-full-width": false,
+          "width": "1200",
+          "border-radius-top-left": 0,
+          "border-radius-top-right": 0,
+          "border-radius-bottom-right": 0,
+          "border-radius-bottom-left": 0,
+          "margin-top": 0,
+          "margin-right": 0,
+          "margin-bottom": 0,
+          "margin-left": 0,
+          "padding-top": "60",
+          "padding-right": "20",
+          "padding-bottom": "60",
+          "padding-left": "20",
+          "background-color": "#282828FF",
+          "background-image": null,
+          "background-repeat": "no-repeat",
+          "background-position": "center",
+          "background-size": "cover",
+          "css-content": "{ }"
+        }
+      },
+      "label": "Container",
+      "children": [
+        {
+          "id": "PBS-9r7561775086051715",
+          "name": "title",
+          "blocks": {
+            "parameters": {
+              "text": "Let Me Get You A Beautiful Website",
+              "subtitle": null,
+              "style": "style-1",
+              "url": null
+            },
+            "style": {
+              "text-alignment": "center",
+              "font-size": 2,
+              "text-color": "#FFFFFFFF",
+              "accent-color": "#ff6e55",
+              "font-family": null,
+              "font-weight": "bold",
+              "text-decoration": "none",
+              "line-height": 150,
+              "letter-spacing": 0,
+              "subtitle-text-alignment": "center",
+              "space-between-title": 0,
+              "subtitle-font-size": 1,
+              "subtitle-text-color": "#26292E",
+              "subtitle-font-family": null,
+              "subtitle-font-weight": "normal",
+              "subtitle-text-decoration": "none",
+              "subtitle-line-height": 150,
+              "subtitle-letter-spacing": 0,
+              "title-alignment": "center",
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "padding-top": 0,
+              "padding-right": 0,
+              "padding-bottom": 0,
+              "padding-left": 0,
+              "background-color": "transparent",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Title",
+          "children": null
+        },
+        {
+          "id": "PBS-5d1r1j1775086156059",
+          "name": "link-button",
+          "blocks": {
+            "parameters": {
+              "content": "<p>Hier Me</p>",
+              "icon-choice": "none",
+              "icon-class": "fas fa-shopping-cart",
+              "icon-image": null,
+              "type": "external-link",
+              "target-section": null,
+              "target-external-section": null,
+              "sticky-mobile": false,
+              "sticky-desktop": false
+            },
+            "style": {
+              "button-alignment": "center",
+              "is-full-width": false,
+              "width": 180,
+              "height": null,
+              "margin-top": 20,
+              "margin-right": 0,
+              "margin-bottom": 20,
+              "margin-left": 0,
+              "padding-top": "8",
+              "padding-right": "12",
+              "padding-bottom": "8",
+              "padding-left": "12",
+              "background-color": "#F86565FF",
+              "hover-background-color": "#00000000",
+              "active-background-color": "#101214",
+              "container-desktop-background-color": "transparent",
+              "container-mobile-background-color": "transparent",
+              "font-size": 20,
+              "line-height": 150,
+              "letter-spacing": 0,
+              "text-vertical-alignment": "center",
+              "text-horizontal-alignment": "center",
+              "text-color": "#FFFFFF",
+              "hover-text-color": "#FFFFFF",
+              "active-text-color": "#FFFFFF",
+              "text-shadow": "0px 0px 0px black",
+              "icon-alignment": "row",
+              "icon-size": 24,
+              "icon-color": "#FFFFFF",
+              "icon-hover-color": "#FFFFFF",
+              "space-in-between": 20,
+              "space-in-between-mobile": 20,
+              "icon-shadow": "0px 0px 0px #000000",
+              "border-radius-top-left": "12",
+              "border-radius-top-right": "12",
+              "border-radius-bottom-right": "12",
+              "border-radius-bottom-left": "12",
+              "hover-border-radius-top-left": "12",
+              "hover-border-radius-top-right": "12",
+              "hover-border-radius-bottom-right": "12",
+              "hover-border-radius-bottom-left": "12",
+              "active-border-radius-top-left": 0,
+              "active-border-radius-top-right": 0,
+              "active-border-radius-bottom-right": 0,
+              "active-border-radius-bottom-left": 0,
+              "border-width": "2",
+              "hover-border-width": "2",
+              "active-border-width": 0,
+              "border-color": "#D0021BFF",
+              "hover-border-color": "#D0021BFF",
+              "active-border-color": "#D0021BFF",
+              "border-style": "solid",
+              "animation-name": null,
+              "animation-direction": "from-left-ltr",
+              "animation-duration": 500,
+              "animation-length-from": -14,
+              "animation-length-to": 14,
+              "animation-timing": "linear",
+              "button-shadow": "0px 0px 0px 0px black",
+              "hover-button-shadow": "0px 0px 0px 0px black",
+              "active-button-shadow": "0px 0px 0px 0px black",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Hier Me",
+          "children": null
+        }
+      ]
+    },
+    {
+      "id": "PBS-9709u1775087040516",
+      "name": "row",
+      "blocks": {
+        "parameters": {
+          "rows-gap": "0"
+        },
+        "style": {
+          "section-alignment": "center",
+          "is-full-width": true,
+          "width": null,
+          "border-radius-top-left": 0,
+          "border-radius-top-right": 0,
+          "border-radius-bottom-right": 0,
+          "border-radius-bottom-left": 0,
+          "margin-top": 0,
+          "margin-right": 0,
+          "margin-bottom": 0,
+          "margin-left": 0,
+          "padding-top": "60",
+          "padding-right": 0,
+          "padding-bottom": "60",
+          "padding-left": 0,
+          "background-color": "#000000FF",
+          "background-image": null,
+          "background-repeat": "no-repeat",
+          "background-position": "center",
+          "background-size": "cover",
+          "css-content": "{ }"
+        }
+      },
+      "label": "Container",
+      "children": [
+        {
+          "id": "PBS-gpt5cv1775087049731",
+          "name": "title",
+          "blocks": {
+            "parameters": {
+              "text": "El kous Amine",
+              "subtitle": null,
+              "style": "style-1",
+              "url": null
+            },
+            "style": {
+              "text-alignment": "center",
+              "font-size": 2,
+              "text-color": "#FFFFFFFF",
+              "accent-color": "#ff6e55",
+              "font-family": null,
+              "font-weight": "bold",
+              "text-decoration": "none",
+              "line-height": 150,
+              "letter-spacing": 0,
+              "subtitle-text-alignment": "center",
+              "space-between-title": 0,
+              "subtitle-font-size": 1,
+              "subtitle-text-color": "#26292E",
+              "subtitle-font-family": null,
+              "subtitle-font-weight": "normal",
+              "subtitle-text-decoration": "none",
+              "subtitle-line-height": 150,
+              "subtitle-letter-spacing": 0,
+              "title-alignment": "center",
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "padding-top": 0,
+              "padding-right": 0,
+              "padding-bottom": 0,
+              "padding-left": 0,
+              "background-color": "transparent",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Title",
+          "children": null
+        },
+        {
+          "id": "PBS-fl631p1775087056306",
+          "name": "html-editor",
+          "blocks": {
+            "parameters": {
+              "htmlText": "<p><span style=\"color: rgb(255, 255, 255);\">For more HTML ,CSS, and coding tutorial - pliase click on the link below to subscribe to my channel</span></p>"
+            },
+            "style": {
+              "section-alignment": "center",
+              "is-full-width": true,
+              "width": null,
+              "margin-top": "20",
+              "margin-right": 0,
+              "margin-bottom": "20",
+              "margin-left": 0,
+              "padding-top": 0,
+              "padding-right": "30",
+              "padding-bottom": 0,
+              "padding-left": "30",
+              "background-color": "transparent",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Html Editor",
+          "children": null
+        },
+        {
+          "id": "PBS-o421f1775087418639",
+          "name": "column",
+          "blocks": {
+            "parameters": {
+              "columns": "2",
+              "grid-on-mobile": true,
+              "columns-gap": "0",
+              "rows-gap": 0,
+              "columns-distribution": [
+                50
+              ]
+            },
+            "style": {
+              "section-alignment": "center",
+              "vertical-alignment": "center",
+              "is-full-width": false,
+              "width": "180",
+              "height": null,
+              "border-radius-top-left": 0,
+              "border-radius-top-right": 0,
+              "border-radius-bottom-right": 0,
+              "border-radius-bottom-left": 0,
+              "margin-top": 0,
+              "margin-right": 0,
+              "margin-bottom": 0,
+              "margin-left": 0,
+              "padding-top": 0,
+              "padding-right": 0,
+              "padding-bottom": 0,
+              "padding-left": 0,
+              "background-color": "transparent",
+              "background-image": null,
+              "background-repeat": "no-repeat",
+              "background-position": "center",
+              "background-size": "cover",
+              "css-content": "{ }"
+            }
+          },
+          "label": "Columns",
+          "children": [
+            {
+              "id": "PBS-uwb0o1775087823412",
+              "name": "link-button",
+              "blocks": {
+                "parameters": {
+                  "content": "<p><svg width=\"28\" height=\"28\" fill=\"currentColor\" class=\"bi bi-facebook\" viewBox=\"0 0 16 16\">&nbsp;<path d=\"M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951\"></path>&nbsp;</svg></p>",
+                  "icon-choice": "none",
+                  "icon-class": "fas fa-shopping-cart",
+                  "icon-image": null,
+                  "type": "external-link",
+                  "target-section": null,
+                  "target-external-section": "https://web.facebook.com/profile.php?id=100006270765868",
+                  "sticky-mobile": false,
+                  "sticky-desktop": false
+                },
+                "style": {
+                  "button-alignment": "center",
+                  "is-full-width": false,
+                  "width": "60",
+                  "height": "60",
+                  "margin-top": 20,
+                  "margin-right": 0,
+                  "margin-bottom": 20,
+                  "margin-left": 0,
+                  "padding-top": "25",
+                  "padding-right": "0",
+                  "padding-bottom": 20,
+                  "padding-left": "0",
+                  "background-color": "#FF3851",
+                  "hover-background-color": "#F84D62FF",
+                  "active-background-color": "#F84D62FF",
+                  "container-desktop-background-color": "transparent",
+                  "container-mobile-background-color": "transparent",
+                  "font-size": 20,
+                  "line-height": 150,
+                  "letter-spacing": 0,
+                  "text-vertical-alignment": "center",
+                  "text-horizontal-alignment": "center",
+                  "text-color": "#FFFFFF",
+                  "hover-text-color": "#FFFFFF",
+                  "active-text-color": "#FFFFFF",
+                  "text-shadow": "0px 0px 0px black",
+                  "icon-alignment": "row",
+                  "icon-size": 24,
+                  "icon-color": "#FFFFFF",
+                  "icon-hover-color": "#FFFFFF",
+                  "space-in-between": 20,
+                  "space-in-between-mobile": 20,
+                  "icon-shadow": "0px 0px 0px #000000",
+                  "border-radius-top-left": "200",
+                  "border-radius-top-right": "200",
+                  "border-radius-bottom-right": "200",
+                  "border-radius-bottom-left": "200",
+                  "hover-border-radius-top-left": "200",
+                  "hover-border-radius-top-right": "200",
+                  "hover-border-radius-bottom-right": "200",
+                  "hover-border-radius-bottom-left": "200",
+                  "active-border-radius-top-left": "200",
+                  "active-border-radius-top-right": "200",
+                  "active-border-radius-bottom-right": "200",
+                  "active-border-radius-bottom-left": "200",
+                  "border-width": "2",
+                  "hover-border-width": "2",
+                  "active-border-width": 0,
+                  "border-color": "#D0021BFF",
+                  "hover-border-color": "#D0021BFF",
+                  "active-border-color": "#D0021BFF",
+                  "border-style": "solid",
+                  "animation-name": null,
+                  "animation-direction": "from-left-ltr",
+                  "animation-duration": 500,
+                  "animation-length-from": -14,
+                  "animation-length-to": 14,
+                  "animation-timing": "linear",
+                  "button-shadow": "0px 0px 0px 0px black",
+                  "hover-button-shadow": "0px 0px 0px 0px black",
+                  "active-button-shadow": "0px 0px 0px 0px black",
+                  "css-content": "{ }"
+                }
+              },
+              "label": "facebook",
+              "children": null
+            },
+            {
+              "id": "PBS-cv8g0q1775087818596",
+              "name": "link-button",
+              "blocks": {
+                "parameters": {
+                  "content": "<p><svg width=\"28\" height=\"28\" fill=\"currentColor\" class=\"bi bi-whatsapp\" viewBox=\"0 0 16 16\">&nbsp;<path d=\"M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232\"></path>&nbsp;</svg></p>",
+                  "icon-choice": "none",
+                  "icon-class": "fas fa-shopping-cart",
+                  "icon-image": null,
+                  "type": "external-link",
+                  "target-section": null,
+                  "target-external-section": "https://wa.me/212620490769",
+                  "sticky-mobile": false,
+                  "sticky-desktop": false
+                },
+                "style": {
+                  "button-alignment": "center",
+                  "is-full-width": false,
+                  "width": "60",
+                  "height": "60",
+                  "margin-top": 20,
+                  "margin-right": 0,
+                  "margin-bottom": 20,
+                  "margin-left": 0,
+                  "padding-top": "25",
+                  "padding-right": "0",
+                  "padding-bottom": 20,
+                  "padding-left": "0",
+                  "background-color": "#FF3851",
+                  "hover-background-color": "#F84D62FF",
+                  "active-background-color": "#F84D62FF",
+                  "container-desktop-background-color": "transparent",
+                  "container-mobile-background-color": "transparent",
+                  "font-size": 20,
+                  "line-height": 150,
+                  "letter-spacing": 0,
+                  "text-vertical-alignment": "center",
+                  "text-horizontal-alignment": "center",
+                  "text-color": "#FFFFFF",
+                  "hover-text-color": "#FFFFFF",
+                  "active-text-color": "#FFFFFF",
+                  "text-shadow": "0px 0px 0px black",
+                  "icon-alignment": "row",
+                  "icon-size": 24,
+                  "icon-color": "#FFFFFF",
+                  "icon-hover-color": "#FFFFFF",
+                  "space-in-between": 20,
+                  "space-in-between-mobile": 20,
+                  "icon-shadow": "0px 0px 0px #000000",
+                  "border-radius-top-left": "200",
+                  "border-radius-top-right": "200",
+                  "border-radius-bottom-right": "200",
+                  "border-radius-bottom-left": "200",
+                  "hover-border-radius-top-left": "200",
+                  "hover-border-radius-top-right": "200",
+                  "hover-border-radius-bottom-right": "200",
+                  "hover-border-radius-bottom-left": "200",
+                  "active-border-radius-top-left": "200",
+                  "active-border-radius-top-right": "200",
+                  "active-border-radius-bottom-right": "200",
+                  "active-border-radius-bottom-left": "200",
+                  "border-width": "2",
+                  "hover-border-width": "2",
+                  "active-border-width": 0,
+                  "border-color": "#D0021BFF",
+                  "hover-border-color": "#D0021BFF",
+                  "active-border-color": "#D0021BFF",
+                  "border-style": "solid",
+                  "animation-name": null,
+                  "animation-direction": "from-left-ltr",
+                  "animation-duration": 500,
+                  "animation-length-from": -14,
+                  "animation-length-to": 14,
+                  "animation-timing": "linear",
+                  "button-shadow": "0px 0px 0px 0px black",
+                  "hover-button-shadow": "0px 0px 0px 0px black",
+                  "active-button-shadow": "0px 0px 0px 0px black",
+                  "css-content": "{ }"
+                }
+              },
+              "label": "Link button",
+              "children": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "settings": {
+    "page-direction": "ltr",
+    "page-product-id": null,
+    "is-full-width": true,
+    "width": null,
+    "center-elements": false,
+    "background-color": "#FFFFFF",
+    "background-image": null,
+    "background-repeat": "no-repeat",
+    "background-position": "center",
+    "background-size": "cover",
+    "font-family": "Rubik",
+    "font-size-desktop": "18",
+    "font-size-mobile": 12,
+    "text-color": "#1a1a1a",
+    "content-alignment": "center",
+    "section-alignment": "center",
+    "margin-top": 0,
+    "margin-right": 0,
+    "margin-bottom": 0,
+    "margin-left": 0
+  }
+}
